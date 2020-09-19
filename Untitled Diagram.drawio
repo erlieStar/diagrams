@@ -1,1 +1,46 @@
-<mxfile host="app.diagrams.net" modified="2020-09-19T11:27:28.849Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" version="13.7.3" etag="DfJoQlW9l32MSDBXRTcd" type="github"><diagram id="-EAAiEieUsUykdbhoPAQ">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-09-19T11:45:46.043Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="OAq1NNbdoNwYz0edGRLK" version="13.7.3" type="github">
+  <diagram id="-EAAiEieUsUykdbhoPAQ" name="Page-1">
+    <mxGraphModel dx="1426" dy="771" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="tA1dK1Hm0xbQkZM0FCNI-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tA1dK1Hm0xbQkZM0FCNI-17" target="tA1dK1Hm0xbQkZM0FCNI-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tA1dK1Hm0xbQkZM0FCNI-17" value="客户端开始远程调用" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="145" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tA1dK1Hm0xbQkZM0FCNI-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tA1dK1Hm0xbQkZM0FCNI-19" target="tA1dK1Hm0xbQkZM0FCNI-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tA1dK1Hm0xbQkZM0FCNI-19" value="保存RequestId-&amp;gt;DefaultFuture的映射关系到Map中" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="65" y="360" width="280" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="tA1dK1Hm0xbQkZM0FCNI-20" value="将请求包装成Reqeust对象，含有RequestId属性，发起调用" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="110.5" y="450" width="189" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tA1dK1Hm0xbQkZM0FCNI-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tA1dK1Hm0xbQkZM0FCNI-21" target="tA1dK1Hm0xbQkZM0FCNI-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tA1dK1Hm0xbQkZM0FCNI-21" value="客户端异步收到响应" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="480" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tA1dK1Hm0xbQkZM0FCNI-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tA1dK1Hm0xbQkZM0FCNI-22" target="tA1dK1Hm0xbQkZM0FCNI-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tA1dK1Hm0xbQkZM0FCNI-22" value="从服务端返回的Reponse对象中解析出ReqeustId的值，这个值是其对应的Request对象赋给它的" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="405" y="360" width="270" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="tA1dK1Hm0xbQkZM0FCNI-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tA1dK1Hm0xbQkZM0FCNI-23" target="tA1dK1Hm0xbQkZM0FCNI-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tA1dK1Hm0xbQkZM0FCNI-23" value="根据RequestId从map中找到对应的DefaultFuture" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="405" y="460" width="270" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="tA1dK1Hm0xbQkZM0FCNI-24" value="调用DefaultFuture的get方法返回结果" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="405" y="550" width="270" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
