@@ -1,1 +1,47 @@
-<mxfile host="app.diagrams.net" modified="2020-10-11T03:58:03.030Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" version="13.7.9" etag="hT5HNn4DY5t_3rS_-JOg" type="github"><diagram id="4WZpdWcMRKgXhjZNgHaT">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-10-11T14:43:28.604Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="UflbUiYcJN8cF55ENsCf" version="13.7.9" type="github">
+  <diagram id="4WZpdWcMRKgXhjZNgHaT" name="Page-1">
+    <mxGraphModel dx="946" dy="538" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="k4i1rZ71WiI-O4Ke2PnQ-7" value="DispatcherServlet" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="140" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="k4i1rZ71WiI-O4Ke2PnQ-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;dashed=1;startArrow=classic;startFill=1;endArrow=none;endFill=0;" edge="1" parent="1" source="k4i1rZ71WiI-O4Ke2PnQ-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="310" y="480" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="310" y="550" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k4i1rZ71WiI-O4Ke2PnQ-9" value="Controller" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="390" y="530" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="k4i1rZ71WiI-O4Ke2PnQ-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;dashed=1;startArrow=classic;startFill=1;endArrow=none;endFill=0;" edge="1" parent="1" source="k4i1rZ71WiI-O4Ke2PnQ-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="310" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k4i1rZ71WiI-O4Ke2PnQ-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;startArrow=classic;startFill=1;endArrow=none;endFill=0;" edge="1" parent="1" source="k4i1rZ71WiI-O4Ke2PnQ-10" target="k4i1rZ71WiI-O4Ke2PnQ-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k4i1rZ71WiI-O4Ke2PnQ-10" value="Controller" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="390" y="390" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="k4i1rZ71WiI-O4Ke2PnQ-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;sketch=1;startArrow=classic;startFill=1;dashed=1;" edge="1" parent="1" source="k4i1rZ71WiI-O4Ke2PnQ-11" target="k4i1rZ71WiI-O4Ke2PnQ-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k4i1rZ71WiI-O4Ke2PnQ-11" value="Controller" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="390" y="460" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="k4i1rZ71WiI-O4Ke2PnQ-18" value="Front Controller&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="410" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="k4i1rZ71WiI-O4Ke2PnQ-21" value="Page Controller&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="310" width="110" height="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
