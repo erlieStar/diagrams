@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-21T13:08:17.038Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="pYVpVgCOjDWlLLmQj385" version="13.10.0" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-21T13:09:21.351Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="ZQPWnGLmWwHHLUkm7kgf" version="13.10.0" type="github">
   <diagram id="lrZWcSwqA-e8EfrmLEOv" name="Page-1">
     <mxGraphModel dx="1426" dy="771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -34,7 +34,7 @@
         <mxCell id="jPHAOwejamSru7Q41Iz8-7" value="&lt;pre&gt;&lt;pre&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;NettyTransporter#connect&lt;/font&gt;&lt;/pre&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;shadow=0;sketch=1;" vertex="1" parent="1">
           <mxGeometry x="176.75" y="700" width="229.5" height="75" as="geometry" />
         </mxCell>
-        <mxCell id="jPHAOwejamSru7Q41Iz8-8" value="&lt;font style=&quot;font-size: 14px&quot;&gt;创建了一个NettyClient，在其父类AbstractClient构造函数中调用了doOpen()初始化客户端，并调用connect()发起连接&lt;span style=&quot;background-color: rgb(43 , 43 , 43) ; color: rgb(169 , 183 , 198) ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;background-color: rgb(43 , 43 , 43) ; color: rgb(169 , 183 , 198) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 13.5pt&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="jPHAOwejamSru7Q41Iz8-8" value="&lt;font style=&quot;font-size: 14px&quot;&gt;创建了一个NettyClient，在其父类AbstractClient构造函数中调用了doOpen方法初始化客户端，并调用connect方法发起连接&lt;span style=&quot;background-color: rgb(43 , 43 , 43) ; color: rgb(169 , 183 , 198) ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;background-color: rgb(43 , 43 , 43) ; color: rgb(169 , 183 , 198) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 13.5pt&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="181.5" y="810" width="220" height="130" as="geometry" />
         </mxCell>
       </root>
