@@ -1,1 +1,43 @@
-<mxfile host="app.diagrams.net" modified="2020-11-21T12:56:25.158Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" version="13.10.0" etag="rOXwKaJo8vKJn1su3fl0" type="github"><diagram id="lrZWcSwqA-e8EfrmLEOv">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-11-21T13:08:17.038Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="pYVpVgCOjDWlLLmQj385" version="13.10.0" type="github">
+  <diagram id="lrZWcSwqA-e8EfrmLEOv" name="Page-1">
+    <mxGraphModel dx="1426" dy="771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="jPHAOwejamSru7Q41Iz8-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jPHAOwejamSru7Q41Iz8-1" target="jPHAOwejamSru7Q41Iz8-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jPHAOwejamSru7Q41Iz8-1" value="&lt;font style=&quot;font-size: 14px&quot;&gt;DubboProtocol#refer&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;shadow=0;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="211" y="170" width="159" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jPHAOwejamSru7Q41Iz8-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jPHAOwejamSru7Q41Iz8-3" target="jPHAOwejamSru7Q41Iz8-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jPHAOwejamSru7Q41Iz8-3" value="&lt;font style=&quot;font-size: 14px&quot;&gt;DubboProtocol#getClients&lt;br&gt;这一步可以决定是共享连接，还是创建新的连接&lt;br&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="181.5" y="260" width="220" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="jPHAOwejamSru7Q41Iz8-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jPHAOwejamSru7Q41Iz8-4" target="jPHAOwejamSru7Q41Iz8-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jPHAOwejamSru7Q41Iz8-4" value="&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;font&gt;DubboProtocol#&lt;/font&gt;&lt;font&gt;initClient&lt;/font&gt;&lt;/font&gt;&lt;font&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;br&gt;这一步可以决定直接连接服务提供者，还是等发起网路调用的时候才连接&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="181.5" y="420" width="220" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="jPHAOwejamSru7Q41Iz8-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jPHAOwejamSru7Q41Iz8-5" target="jPHAOwejamSru7Q41Iz8-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jPHAOwejamSru7Q41Iz8-5" value="&lt;pre&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;HeaderExchanger#connect&lt;/font&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="176.75" y="584.5" width="229.5" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="jPHAOwejamSru7Q41Iz8-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jPHAOwejamSru7Q41Iz8-7" target="jPHAOwejamSru7Q41Iz8-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jPHAOwejamSru7Q41Iz8-7" value="&lt;pre&gt;&lt;pre&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;NettyTransporter#connect&lt;/font&gt;&lt;/pre&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;shadow=0;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="176.75" y="700" width="229.5" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="jPHAOwejamSru7Q41Iz8-8" value="&lt;font style=&quot;font-size: 14px&quot;&gt;创建了一个NettyClient，在其父类AbstractClient构造函数中调用了doOpen()初始化客户端，并调用connect()发起连接&lt;span style=&quot;background-color: rgb(43 , 43 , 43) ; color: rgb(169 , 183 , 198) ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;background-color: rgb(43 , 43 , 43) ; color: rgb(169 , 183 , 198) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 13.5pt&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="181.5" y="810" width="220" height="130" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
