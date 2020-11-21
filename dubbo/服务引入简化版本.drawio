@@ -1,1 +1,49 @@
-<mxfile host="app.diagrams.net" modified="2020-11-21T09:37:41.756Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" version="13.10.0" etag="GjUGCKqAsJp0Mj6x_nyD" type="github"><diagram id="R-182nsMU390-khldtop">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-11-21T09:43:33.603Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="iVF10-tCnHGV2uqrCXxi" version="13.10.0" type="github">
+  <diagram id="R-182nsMU390-khldtop" name="Page-1">
+    <mxGraphModel dx="1426" dy="771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="mhR5F9OsDky5p_Gk0eXc-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mhR5F9OsDky5p_Gk0eXc-1" target="mhR5F9OsDky5p_Gk0eXc-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mhR5F9OsDky5p_Gk0eXc-1" value="&lt;pre&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;ReferenceConfig&lt;/font&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="120" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mhR5F9OsDky5p_Gk0eXc-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mhR5F9OsDky5p_Gk0eXc-3" target="mhR5F9OsDky5p_Gk0eXc-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mhR5F9OsDky5p_Gk0eXc-3" value="Invoker" style="ellipse;whiteSpace=wrap;html=1;sketch=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="250" y="300" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mhR5F9OsDky5p_Gk0eXc-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mhR5F9OsDky5p_Gk0eXc-4" target="mhR5F9OsDky5p_Gk0eXc-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mhR5F9OsDky5p_Gk0eXc-4" value="&lt;span style=&quot;font-size: 14px&quot;&gt;Protocol&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="210" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mhR5F9OsDky5p_Gk0eXc-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mhR5F9OsDky5p_Gk0eXc-5" target="mhR5F9OsDky5p_Gk0eXc-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mhR5F9OsDky5p_Gk0eXc-5" value="&lt;pre&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;ProxyFactory&lt;/font&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="410" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mhR5F9OsDky5p_Gk0eXc-6" value="代理类" style="ellipse;whiteSpace=wrap;html=1;sketch=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="250" y="505" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mhR5F9OsDky5p_Gk0eXc-11" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="160" width="20" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="mhR5F9OsDky5p_Gk0eXc-12" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="360" width="20" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="mhR5F9OsDky5p_Gk0eXc-15" value="&lt;font style=&quot;font-size: 14px&quot;&gt;远程服务转换成Invoker&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="240" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="mhR5F9OsDky5p_Gk0eXc-16" value="&lt;span style=&quot;font-size: 14px&quot;&gt;Invoker转换成接口代理类&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="440" width="120" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
