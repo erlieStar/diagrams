@@ -1,20 +1,62 @@
-<mxfile host="app.diagrams.net" modified="2020-11-24T11:10:30.188Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="ZBpagJN4vaAdPELhQ0cB" version="13.10.0" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-26T04:04:40.954Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="p9P4Wf3DD2ML0VOOFPzC" version="13.10.2" type="github">
   <diagram id="Hk6JAbKR057ooRP-Hkw4" name="Page-1">
-    <mxGraphModel dx="946" dy="538" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1773" dy="1707" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="3TujbXyup_GJddwviF6T-1" value="RegistryDirectory#subscribe" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="80" y="70" width="190" height="60" as="geometry" />
+        <mxCell id="9p_am3Rnc00wN51AWFlA-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;sketch=1;" edge="1" parent="1" source="3TujbXyup_GJddwviF6T-1" target="3TujbXyup_GJddwviF6T-5">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="3TujbXyup_GJddwviF6T-4" value="订阅type级别的providers，configurators，routers路径" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="300" y="100" width="310" as="geometry" />
+        <mxCell id="3TujbXyup_GJddwviF6T-1" value="&lt;font style=&quot;font-size: 12px&quot;&gt;RegistryDirectory#subscribe&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;sketch=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="80" width="190" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="3TujbXyup_GJddwviF6T-5" value="ZookeeperRegistry#doSubscribe" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="80" y="210" width="190" height="60" as="geometry" />
+        <mxCell id="3TujbXyup_GJddwviF6T-4" value="订阅type级别的providers，configurators，routers路径" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="290" y="110" width="310" as="geometry" />
         </mxCell>
-        <mxCell id="3TujbXyup_GJddwviF6T-6" value="执行订阅操作&lt;br&gt;对路径增加监听器" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="259" y="240" width="310" as="geometry" />
+        <mxCell id="9p_am3Rnc00wN51AWFlA-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;sketch=1;" edge="1" parent="1" source="3TujbXyup_GJddwviF6T-5" target="9p_am3Rnc00wN51AWFlA-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3TujbXyup_GJddwviF6T-5" value="&lt;font style=&quot;font-size: 12px&quot;&gt;ZookeeperRegistry#doSubscribe&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;" parent="1" vertex="1">
+          <mxGeometry x="67.5" y="200" width="215" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3TujbXyup_GJddwviF6T-6" value="执行订阅操作&lt;br&gt;对路径增加监听器" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="210" y="230" width="310" as="geometry" />
+        </mxCell>
+        <mxCell id="9p_am3Rnc00wN51AWFlA-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;sketch=1;" edge="1" parent="1" source="9p_am3Rnc00wN51AWFlA-1" target="9p_am3Rnc00wN51AWFlA-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9p_am3Rnc00wN51AWFlA-1" value="&lt;font style=&quot;font-size: 12px&quot;&gt;0. 订阅type级别后的路径，获取子节点&lt;br&gt;1. 回调RegistryDirectory#notify方法，传入子节点路径&lt;br&gt;2.更新本地缓存&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="25" y="300" width="300" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="9p_am3Rnc00wN51AWFlA-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;sketch=1;" edge="1" parent="1" source="9p_am3Rnc00wN51AWFlA-2" target="9p_am3Rnc00wN51AWFlA-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9p_am3Rnc00wN51AWFlA-17" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;sketch=1;" edge="1" parent="1" source="9p_am3Rnc00wN51AWFlA-2" target="9p_am3Rnc00wN51AWFlA-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9p_am3Rnc00wN51AWFlA-18" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;sketch=1;" edge="1" parent="1" source="9p_am3Rnc00wN51AWFlA-2" target="9p_am3Rnc00wN51AWFlA-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9p_am3Rnc00wN51AWFlA-2" value="&lt;pre&gt;RegistryDirectory#notify&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="450" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9p_am3Rnc00wN51AWFlA-3" value="第一次执行订阅或者&lt;br&gt;订阅的节点发生变更" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="480" width="310" as="geometry" />
+        </mxCell>
+        <mxCell id="9p_am3Rnc00wN51AWFlA-7" value="&lt;pre&gt;configurators类型的url&lt;/pre&gt;&lt;pre&gt;解析，更新本地配置&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="-150" y="560" width="200" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="9p_am3Rnc00wN51AWFlA-8" value="&lt;pre&gt;&lt;pre&gt;routers类型的url&lt;/pre&gt;&lt;pre&gt;解析，更新本地路由&lt;/pre&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="75" y="560" width="200" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="9p_am3Rnc00wN51AWFlA-9" value="&lt;pre&gt;&lt;pre&gt;providers类型的url&lt;/pre&gt;&lt;pre&gt;创建新的Invoker，销毁旧的Invoker&lt;/pre&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="299" y="560" width="230" height="62.5" as="geometry" />
+        </mxCell>
+        <mxCell id="9p_am3Rnc00wN51AWFlA-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;sketch=1;" edge="1" parent="1" source="9p_am3Rnc00wN51AWFlA-10" target="3TujbXyup_GJddwviF6T-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9p_am3Rnc00wN51AWFlA-10" value="&lt;pre&gt;RegistryDirectory#subscribe&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="70" y="-20" width="210" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
