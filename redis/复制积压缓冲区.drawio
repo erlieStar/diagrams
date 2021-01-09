@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-09T10:03:17.578Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="XSdA0gOTZAQ1mzlHe3zP" version="14.1.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-09T10:07:28.008Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="kSyuPeqENML24BYqwBEO" version="14.1.8" type="github">
   <diagram id="tCljcDxRBoMlGk4P-c9q" name="Page-1">
     <mxGraphModel dx="1426" dy="771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -30,6 +30,15 @@
         </mxCell>
         <mxCell id="XU56r5Qt3jW2Y6eBHJ7n-7" value="slave2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="500" y="340" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XU56r5Qt3jW2Y6eBHJ7n-10" value="发送写命令" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="280" y="320" width="96" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="XU56r5Qt3jW2Y6eBHJ7n-11" value="将写命令放入队列" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="205" width="126" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="XU56r5Qt3jW2Y6eBHJ7n-12" value="发送写命令" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="300" y="255" width="96" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
