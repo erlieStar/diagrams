@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-09T08:17:26.252Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="NATbxMyhhgN13Lk4hs3J" version="14.1.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-09T08:20:51.042Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="fqd2nBisNdPzLZlH65of" version="14.1.8" type="github">
   <diagram id="LrtfoXHrhHT_ntb2zdAv" name="Page-1">
     <mxGraphModel dx="1426" dy="771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -49,13 +49,13 @@
         <mxCell id="BwNlmVSKls3WJV9GoDXy-22" value="执行bgsave生成rdb" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry y="277.5" width="120" height="15" as="geometry" />
         </mxCell>
-        <mxCell id="BwNlmVSKls3WJV9GoDXy-24" value="master&lt;br&gt;172.16.19.2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="BwNlmVSKls3WJV9GoDXy-24" value="master&lt;br&gt;172.16.19.1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="140" y="130" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="BwNlmVSKls3WJV9GoDXy-26" value="slave&lt;br&gt;172.16.19.2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="440" y="130" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="BwNlmVSKls3WJV9GoDXy-27" value="执行 slaveof 172.16.19.2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="BwNlmVSKls3WJV9GoDXy-27" value="执行 slaveof 172.16.19.1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="510" y="200" width="160" height="20" as="geometry" />
         </mxCell>
         <mxCell id="BwNlmVSKls3WJV9GoDXy-28" value="保存主节点信息" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
