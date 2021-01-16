@@ -1,1 +1,59 @@
-<mxfile host="app.diagrams.net" modified="2021-01-16T07:51:47.705Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" version="14.1.9" etag="DFjCGgoFMkIO9Fc4ynFZ" type="github"><diagram id="IM3Qr_YdppS0sqcke6uO">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-01-16T07:54:23.026Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="DGyMeAEejxxTvzv7duZA" version="14.1.9" type="github">
+  <diagram id="IM3Qr_YdppS0sqcke6uO" name="Page-1">
+    <mxGraphModel dx="946" dy="536" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="tekauHHH6fqMolF5dupH-1" value="" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" vertex="1" parent="1">
+          <mxGeometry x="662" y="395" width="247" height="93" as="geometry" />
+        </mxCell>
+        <mxCell id="tekauHHH6fqMolF5dupH-2" value="" style="shape=table;html=1;whiteSpace=wrap;startSize=0;container=1;collapsible=0;childLayout=tableLayout;sketch=0;" vertex="1" parent="1">
+          <mxGeometry x="510" y="320" width="90" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="tekauHHH6fqMolF5dupH-3" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="tekauHHH6fqMolF5dupH-2">
+          <mxGeometry width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tekauHHH6fqMolF5dupH-4" value="dict" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=#fff2cc;top=0;left=0;bottom=0;right=0;overflow=hidden;strokeColor=#d6b656;" vertex="1" parent="tekauHHH6fqMolF5dupH-3">
+          <mxGeometry width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tekauHHH6fqMolF5dupH-5" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="tekauHHH6fqMolF5dupH-2">
+          <mxGeometry y="40" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tekauHHH6fqMolF5dupH-6" value="StringObject&lt;br&gt;&quot;bookName&quot;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" vertex="1" parent="tekauHHH6fqMolF5dupH-5">
+          <mxGeometry width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tekauHHH6fqMolF5dupH-7" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="tekauHHH6fqMolF5dupH-2">
+          <mxGeometry y="80" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tekauHHH6fqMolF5dupH-8" value="StringObject&lt;br&gt;&quot;fruits&quot;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" vertex="1" parent="tekauHHH6fqMolF5dupH-7">
+          <mxGeometry width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tekauHHH6fqMolF5dupH-9" value="StringObject&lt;br&gt;&quot;redis&quot;" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" vertex="1" parent="1">
+          <mxGeometry x="648" y="334" width="92" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tekauHHH6fqMolF5dupH-10" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="tekauHHH6fqMolF5dupH-5" target="tekauHHH6fqMolF5dupH-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tekauHHH6fqMolF5dupH-11" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="tekauHHH6fqMolF5dupH-12" target="tekauHHH6fqMolF5dupH-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="789" y="455" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tekauHHH6fqMolF5dupH-12" value="StringObject&lt;br&gt;&quot;banana&quot;" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" vertex="1" parent="1">
+          <mxGeometry x="682" y="435" width="92" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tekauHHH6fqMolF5dupH-13" value="StringObject&lt;br&gt;&quot;apple&quot;" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" vertex="1" parent="1">
+          <mxGeometry x="799" y="435" width="92" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tekauHHH6fqMolF5dupH-14" value="ListObject" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;" vertex="1" parent="1">
+          <mxGeometry x="764" y="400" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="tekauHHH6fqMolF5dupH-15" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="tekauHHH6fqMolF5dupH-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="661" y="449" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
