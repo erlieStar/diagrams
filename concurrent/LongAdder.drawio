@@ -1,59 +1,59 @@
-<mxfile host="app.diagrams.net" modified="2021-02-16T09:13:15.318Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="O92X0iSrR9XRct9KqZqq" version="14.3.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-16T09:14:51.764Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="OHLysILnEzRlQkCPzghZ" version="14.3.1" type="github">
   <diagram id="3-YAko5oQFc1nSDCldf5" name="Page-1">
     <mxGraphModel dx="1773" dy="536" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="LENsGDgyXk3gptEeOsoV-1" value="&lt;pre&gt;base&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="260" y="160" width="200" height="40" as="geometry" />
+          <mxGeometry x="327" y="160" width="200" height="40" as="geometry" />
         </mxCell>
         <mxCell id="LENsGDgyXk3gptEeOsoV-2" value="cell[1]" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="500" y="355" width="100" height="40" as="geometry" />
+          <mxGeometry x="567" y="355" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="LENsGDgyXk3gptEeOsoV-3" value="&lt;pre&gt;&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34;&quot;&gt;cell[1]&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="380" y="355" width="100" height="40" as="geometry" />
+          <mxGeometry x="447" y="355" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="LENsGDgyXk3gptEeOsoV-4" value="&lt;pre&gt;&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34;&quot;&gt;cell[0]&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="260" y="355" width="100" height="40" as="geometry" />
+          <mxGeometry x="327" y="355" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="LENsGDgyXk3gptEeOsoV-5" value="cell数组为空并且对base值cas成功时&lt;br&gt;线程只会对&lt;span&gt;base进行累加&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-8" y="142" width="221" height="86" as="geometry" />
+          <mxGeometry x="79" y="144" width="221" height="86" as="geometry" />
         </mxCell>
         <mxCell id="LENsGDgyXk3gptEeOsoV-6" value="" style="shape=flexArrow;endArrow=classic;html=1;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="320" y="60" as="sourcePoint" />
-            <mxPoint x="320" y="150" as="targetPoint" />
+            <mxPoint x="387" y="60" as="sourcePoint" />
+            <mxPoint x="387" y="150" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="LENsGDgyXk3gptEeOsoV-7" value="" style="shape=flexArrow;endArrow=classic;html=1;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="410" y="60" as="sourcePoint" />
-            <mxPoint x="410" y="150" as="targetPoint" />
+            <mxPoint x="477" y="60" as="sourcePoint" />
+            <mxPoint x="477" y="150" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="LENsGDgyXk3gptEeOsoV-9" value="cell数组不为空，或者对base值cas失败时&lt;br&gt;1. cell数组已经初始化，对cell数组元素进行cas&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 2. cell数组没有初始化，则对cell数组初始化，并放元素&lt;br&gt;&amp;nbsp; 3. cell数组正在初始化，其他线程对base进行cas" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-97" y="329.5" width="344" height="91" as="geometry" />
+          <mxGeometry x="-31" y="324" width="344" height="91" as="geometry" />
         </mxCell>
         <mxCell id="LENsGDgyXk3gptEeOsoV-10" value="线程" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="260" y="100" width="40" height="20" as="geometry" />
+          <mxGeometry x="327" y="100" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="LENsGDgyXk3gptEeOsoV-11" value="&lt;pre&gt;base&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="620" y="355" width="100" height="40" as="geometry" />
+          <mxGeometry x="687" y="355" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="LENsGDgyXk3gptEeOsoV-12" value="" style="shape=flexArrow;endArrow=classic;html=1;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="429.5" y="240" as="sourcePoint" />
-            <mxPoint x="429.5" y="330" as="targetPoint" />
+            <mxPoint x="496.5" y="240" as="sourcePoint" />
+            <mxPoint x="496.5" y="330" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="LENsGDgyXk3gptEeOsoV-13" value="" style="shape=flexArrow;endArrow=classic;html=1;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="309.5" y="240" as="sourcePoint" />
-            <mxPoint x="309.5" y="330" as="targetPoint" />
+            <mxPoint x="376.5" y="240" as="sourcePoint" />
+            <mxPoint x="376.5" y="330" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="LENsGDgyXk3gptEeOsoV-14" value="线程" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="260" y="270" width="40" height="20" as="geometry" />
+          <mxGeometry x="327" y="270" width="40" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
