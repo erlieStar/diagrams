@@ -1,1 +1,61 @@
-<mxfile host="app.diagrams.net" modified="2021-02-22T15:16:53.983Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36" version="14.2.9" etag="4cqkehBtoD41FQvJfzkV" type="github"><diagram id="pZ9pBV7wKOuKFUoWZyM2">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-02-22T15:21:38.262Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36" etag="xKF94FqWBoX-1sm4kNtz" version="14.2.9" type="github">
+  <diagram id="pZ9pBV7wKOuKFUoWZyM2" name="Page-1">
+    <mxGraphModel dx="1695" dy="450" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="pLQWBrSbHzXF6ykkF1aT-1" value="&lt;pre&gt;&lt;pre&gt;baseCount&lt;/pre&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="327" y="160" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pLQWBrSbHzXF6ykkF1aT-2" value="cell[2]" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="567" y="355" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pLQWBrSbHzXF6ykkF1aT-3" value="&lt;pre&gt;&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34;&quot;&gt;cell[1]&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="447" y="355" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pLQWBrSbHzXF6ykkF1aT-4" value="&lt;pre&gt;&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34;&quot;&gt;cell[0]&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="327" y="355" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pLQWBrSbHzXF6ykkF1aT-5" value="cell数组为空并且对&lt;span&gt;baseCount&lt;/span&gt;&lt;span&gt;值cas成功时&lt;/span&gt;&lt;br&gt;线程只会对&lt;span&gt;baseCount&lt;/span&gt;&lt;span&gt;进行累加&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="137" width="241" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="pLQWBrSbHzXF6ykkF1aT-6" value="" style="shape=flexArrow;endArrow=classic;html=1;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="387" y="60" as="sourcePoint" />
+            <mxPoint x="387" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pLQWBrSbHzXF6ykkF1aT-7" value="" style="shape=flexArrow;endArrow=classic;html=1;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="477" y="60" as="sourcePoint" />
+            <mxPoint x="477" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pLQWBrSbHzXF6ykkF1aT-8" value="线程" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="327" y="100" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="pLQWBrSbHzXF6ykkF1aT-9" value="&lt;pre&gt;&lt;pre&gt;baseCount&lt;/pre&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="687" y="355" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pLQWBrSbHzXF6ykkF1aT-10" value="" style="shape=flexArrow;endArrow=classic;html=1;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="496.5" y="240" as="sourcePoint" />
+            <mxPoint x="496.5" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pLQWBrSbHzXF6ykkF1aT-11" value="" style="shape=flexArrow;endArrow=classic;html=1;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="376.5" y="240" as="sourcePoint" />
+            <mxPoint x="376.5" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pLQWBrSbHzXF6ykkF1aT-12" value="线程" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="327" y="270" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="pLQWBrSbHzXF6ykkF1aT-13" value="&amp;nbsp; cell数组不为空，或者对&lt;span&gt;baseCount&lt;/span&gt;&lt;span&gt;值cas失败时&lt;/span&gt;&lt;br&gt;1. cell数组已经初始化，对cell数组元素进行cas&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 2. cell数组没有初始化，则对cell数组初始化，并放元素&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 3. cell数组正在初始化，其他线程对baseCount进行cas" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-60" y="327" width="361" height="96" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
