@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-23T14:08:28.571Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36" etag="PdvdzulSxNVG1eixi6AD" version="14.4.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-23T14:08:56.159Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36" etag="cWhHPJE4zPOy7DCykIrJ" version="14.4.2" type="github">
   <diagram id="xvaClHkXh2wY_3COnp-z" name="Page-1">
     <mxGraphModel dx="868" dy="450" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -16,19 +16,19 @@
         <mxCell id="gbiPvXeYtG_xsaL20VlN-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="gbiPvXeYtG_xsaL20VlN-5" target="gbiPvXeYtG_xsaL20VlN-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="gbiPvXeYtG_xsaL20VlN-5" value="&lt;span&gt;compareAndSetState&lt;/span&gt;&lt;br&gt;&lt;span&gt;尝试获取锁&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="gbiPvXeYtG_xsaL20VlN-5" value="&lt;span&gt;compareAndSetState&lt;/span&gt;&lt;br&gt;&lt;span&gt;尝试获取锁&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="185" y="380" width="150" height="110" as="geometry" />
         </mxCell>
         <mxCell id="gbiPvXeYtG_xsaL20VlN-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="gbiPvXeYtG_xsaL20VlN-6" target="gbiPvXeYtG_xsaL20VlN-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="gbiPvXeYtG_xsaL20VlN-6" value="tryAcquire&lt;br&gt;尝试加锁，并且没有线程加锁时" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="gbiPvXeYtG_xsaL20VlN-6" value="tryAcquire&lt;br&gt;尝试加锁，并且没有线程加锁时" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="1" vertex="1">
           <mxGeometry x="200" y="530" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="gbiPvXeYtG_xsaL20VlN-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="gbiPvXeYtG_xsaL20VlN-7" target="gbiPvXeYtG_xsaL20VlN-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="gbiPvXeYtG_xsaL20VlN-7" value="compareAndSetState&lt;br&gt;直接cas尝试加锁" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="gbiPvXeYtG_xsaL20VlN-7" value="compareAndSetState&lt;br&gt;直接cas尝试加锁" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="1" vertex="1">
           <mxGeometry x="200" y="630" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="gbiPvXeYtG_xsaL20VlN-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="gbiPvXeYtG_xsaL20VlN-8" target="gbiPvXeYtG_xsaL20VlN-11" edge="1">
@@ -43,19 +43,19 @@
         <mxCell id="gbiPvXeYtG_xsaL20VlN-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="gbiPvXeYtG_xsaL20VlN-11" target="gbiPvXeYtG_xsaL20VlN-14" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="gbiPvXeYtG_xsaL20VlN-11" value="tryAcquire&lt;br&gt;尝试加锁，并且没有线程加锁时" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="gbiPvXeYtG_xsaL20VlN-11" value="tryAcquire&lt;br&gt;尝试加锁，并且没有线程加锁时" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="1" vertex="1">
           <mxGeometry x="465" y="400" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="gbiPvXeYtG_xsaL20VlN-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="gbiPvXeYtG_xsaL20VlN-12" target="gbiPvXeYtG_xsaL20VlN-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="gbiPvXeYtG_xsaL20VlN-12" value="compareAndSetState&lt;br&gt;直接cas尝试加锁" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="gbiPvXeYtG_xsaL20VlN-12" value="compareAndSetState&lt;br&gt;直接cas尝试加锁" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="1" vertex="1">
           <mxGeometry x="465" y="630" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="gbiPvXeYtG_xsaL20VlN-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="gbiPvXeYtG_xsaL20VlN-14" target="gbiPvXeYtG_xsaL20VlN-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="gbiPvXeYtG_xsaL20VlN-14" value="&lt;span&gt;hasQueuedPredecessors&lt;/span&gt;&lt;br&gt;是否需要排队" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="gbiPvXeYtG_xsaL20VlN-14" value="&lt;span&gt;hasQueuedPredecessors&lt;/span&gt;&lt;br&gt;是否需要排队" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="435" y="490" width="180" height="110" as="geometry" />
         </mxCell>
         <mxCell id="gbiPvXeYtG_xsaL20VlN-23" value="失败" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
