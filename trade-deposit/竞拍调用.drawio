@@ -1,23 +1,50 @@
-<mxfile host="app.diagrams.net" modified="2021-03-18T02:12:01.010Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="RZmz5k7Xsrn1Yp6lcZ_O" version="14.4.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-18T02:18:19.835Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="kWhFrRjYrwBhWStqea1m" version="14.4.8" type="github">
   <diagram id="3iJ3F0icTt7glpVxfZ8G" name="Page-1">
     <mxGraphModel dx="946" dy="536" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="h8HhiDOI-f9DlOJBQdx_-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="h8HhiDOI-f9DlOJBQdx_-1" target="h8HhiDOI-f9DlOJBQdx_-2">
+        <mxCell id="h8HhiDOI-f9DlOJBQdx_-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="h8HhiDOI-f9DlOJBQdx_-1" target="h8HhiDOI-f9DlOJBQdx_-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="h8HhiDOI-f9DlOJBQdx_-1" value="check" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="270" y="150" width="120" height="60" as="geometry" />
+          <mxGeometry x="270" y="100" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="h8HhiDOI-f9DlOJBQdx_-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="h8HhiDOI-f9DlOJBQdx_-2" target="h8HhiDOI-f9DlOJBQdx_-3">
+        <mxCell id="h8HhiDOI-f9DlOJBQdx_-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="h8HhiDOI-f9DlOJBQdx_-6" target="h8HhiDOI-f9DlOJBQdx_-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="h8HhiDOI-f9DlOJBQdx_-2" value="获取锁" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="270" y="260" width="120" height="60" as="geometry" />
+        <mxCell id="h8HhiDOI-f9DlOJBQdx_-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="h8HhiDOI-f9DlOJBQdx_-6" target="h8HhiDOI-f9DlOJBQdx_-9">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="h8HhiDOI-f9DlOJBQdx_-3" value="freeze" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="270" y="370" width="120" height="60" as="geometry" />
+        <mxCell id="h8HhiDOI-f9DlOJBQdx_-6" value="是否有冻结" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="340" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="h8HhiDOI-f9DlOJBQdx_-7" value="不再调用freeze&lt;br&gt;出价成功" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="h8HhiDOI-f9DlOJBQdx_-9" value="调用freeze" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="h8HhiDOI-f9DlOJBQdx_-11" value="是" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="270" y="450" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="h8HhiDOI-f9DlOJBQdx_-12" value="否" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="414" y="380" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="h8HhiDOI-f9DlOJBQdx_-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="h8HhiDOI-f9DlOJBQdx_-13" target="h8HhiDOI-f9DlOJBQdx_-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h8HhiDOI-f9DlOJBQdx_-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="h8HhiDOI-f9DlOJBQdx_-13" target="h8HhiDOI-f9DlOJBQdx_-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h8HhiDOI-f9DlOJBQdx_-13" value="是否获得锁？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="200" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="h8HhiDOI-f9DlOJBQdx_-16" value="是" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="270" y="290" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="h8HhiDOI-f9DlOJBQdx_-17" value="出价失败" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="210" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
