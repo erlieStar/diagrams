@@ -1,1 +1,31 @@
-<mxfile host="app.diagrams.net" modified="2021-03-25T07:38:17.728Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" version="14.4.9" etag="csqJMU46TM6MS6Mmhnv9" type="github"><diagram id="XwFszQ020oqTxcjHKegX">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-03-25T07:55:05.650Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="tsz6iOpsV4S00aR5HWUh" version="14.4.9" type="github">
+  <diagram id="XwFszQ020oqTxcjHKegX" name="Page-1">
+    <mxGraphModel dx="946" dy="536" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Lm-XdE_3oOtvqwFQbKPA-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Lm-XdE_3oOtvqwFQbKPA-1" target="Lm-XdE_3oOtvqwFQbKPA-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Lm-XdE_3oOtvqwFQbKPA-1" value="&lt;pre&gt;HttpServletBean#init&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="195" y="120" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Lm-XdE_3oOtvqwFQbKPA-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Lm-XdE_3oOtvqwFQbKPA-2" target="Lm-XdE_3oOtvqwFQbKPA-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Lm-XdE_3oOtvqwFQbKPA-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Lm-XdE_3oOtvqwFQbKPA-2" target="Lm-XdE_3oOtvqwFQbKPA-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Lm-XdE_3oOtvqwFQbKPA-2" value="&lt;pre&gt;FrameworkServlet#initServletBean&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="150" y="230" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Lm-XdE_3oOtvqwFQbKPA-3" value="&lt;pre&gt;FrameworkServlet#createWebApplicationContext&lt;/pre&gt;&lt;pre&gt;初始化子容器&lt;/pre&gt;&lt;pre&gt;设置父容器&lt;/pre&gt;&lt;pre&gt;开始刷新（即启动）&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="490" y="140" width="340" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Lm-XdE_3oOtvqwFQbKPA-4" value="&lt;pre&gt;DispatcherServlet#initStrategies&lt;/pre&gt;&lt;pre&gt;初始化Spring MVC需要的各种组件&lt;/pre&gt;&lt;pre&gt;如HandlerMapping，HandlerAdapter等&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="490" y="280" width="340" height="90" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
