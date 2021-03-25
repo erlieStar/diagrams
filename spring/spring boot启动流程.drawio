@@ -1,1 +1,28 @@
-<mxfile host="app.diagrams.net" modified="2021-03-25T15:55:41.407Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" version="14.5.1" etag="aIuRhKSN9rqI3hwyzAlg" type="github"><diagram id="VLOndrZwdGjurE4qCbJl">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-03-25T16:03:11.207Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="EWUFsm0xaosCrYTk3Wex" version="14.5.1" type="github">
+  <diagram id="VLOndrZwdGjurE4qCbJl" name="Page-1">
+    <mxGraphModel dx="946" dy="536" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="-zF1WsUd2PmiUfpxgA9t-1" value="&lt;pre&gt;SpringApplication创建&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="190" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-zF1WsUd2PmiUfpxgA9t-2" value="推断Web容器类型" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="40" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-zF1WsUd2PmiUfpxgA9t-3" value="推断Web容器类型" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="30" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-zF1WsUd2PmiUfpxgA9t-4" value="从spring.factories中获取&lt;br&gt;&lt;pre&gt;ApplicationContextInitializer&lt;/pre&gt;&lt;pre&gt;并设置到当前容器中&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="130" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-zF1WsUd2PmiUfpxgA9t-5" value="从spring.factories中获取&lt;br&gt;&lt;pre&gt;&lt;pre&gt;ApplicationListener&lt;/pre&gt;&lt;/pre&gt;&lt;pre&gt;并设置到当前容器中&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="260" width="240" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="-zF1WsUd2PmiUfpxgA9t-6" value="推断启动类" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="370" width="190" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
