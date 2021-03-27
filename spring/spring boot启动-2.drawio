@@ -1,39 +1,9 @@
-<mxfile host="app.diagrams.net" modified="2021-03-27T11:28:46.503Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="Ni9MmxWhmaT1XM9ekjAQ" version="14.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-27T13:03:17.266Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="kjtJ6o1dLhPkOTayDDoP" version="14.5.1" type="github">
   <diagram id="dF4nIMSrz6fsL5tvNQ5N" name="Page-1">
     <mxGraphModel dx="946" dy="536" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="LCG1PN86jn8KaFvbHIvy-1" value="&lt;pre&gt;printBanner&lt;/pre&gt;&lt;pre&gt;打印启动横幅&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="294" y="160" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="LCG1PN86jn8KaFvbHIvy-2" value="&lt;pre&gt;&lt;pre&gt;createApplicationContext&lt;/pre&gt;&lt;/pre&gt;&lt;pre&gt;根据容器类型创建ApplicationContext&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="226" y="260" width="256" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="LCG1PN86jn8KaFvbHIvy-3" value="&lt;pre&gt;&lt;pre&gt;&lt;pre&gt;prepareContext&lt;/pre&gt;&lt;pre&gt;准备ApplicationContext&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="226" y="380" width="256" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="LCG1PN86jn8KaFvbHIvy-4" value="&lt;pre&gt;&lt;pre&gt;&lt;pre&gt;&lt;pre&gt;refreshContext&lt;/pre&gt;&lt;pre&gt;启动ApplicationContext&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="226" y="500" width="256" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="LCG1PN86jn8KaFvbHIvy-5" value="&lt;pre&gt;&lt;pre&gt;&lt;pre&gt;&lt;pre&gt;&lt;pre&gt;afterRefresh&lt;/pre&gt;&lt;pre&gt;&lt;pre&gt;容器启动后的扩展方法，目前为空&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="226" y="610" width="256" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="LCG1PN86jn8KaFvbHIvy-6" value="&lt;pre&gt;&lt;pre&gt;&lt;pre&gt;&lt;pre&gt;&lt;pre&gt;&lt;pre&gt;callRunners&lt;/pre&gt;&lt;pre&gt;回调ApplicationRunner和&lt;/pre&gt;&lt;pre&gt;CommandLineRunner接口的run方法&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="226" y="730" width="256" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="LCG1PN86jn8KaFvbHIvy-8" value="&lt;pre&gt;&lt;pre&gt;prepareEnvironment&lt;/pre&gt;&lt;pre&gt;根据容器类型创建ApplicationContext&lt;/pre&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="226" y="40" width="256" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="LCG1PN86jn8KaFvbHIvy-9" value="&lt;pre&gt;&lt;pre&gt;&lt;pre&gt;&lt;pre&gt;执行&lt;/pre&gt;&lt;pre&gt;AbstractApplicationContext#refresh&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="573.5" y="410" width="269" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="LCG1PN86jn8KaFvbHIvy-10" value="一般情况是servlet环境，子类重写onRefresh方法&lt;br&gt;ServletWebServerApplicationContext#onRefresh" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="573.5" y="500" width="269" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="LCG1PN86jn8KaFvbHIvy-11" value="ServletWebServerApplicationContext#createWebServer&lt;br&gt;创建Servlet容器并启动" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="550" y="590" width="336.5" height="70" as="geometry" />
-        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
