@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-28T08:18:52.751Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="7WaftKyEMkO9XpWkrDhH" version="14.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-28T09:27:37.373Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="yVyqVcw7zeJbzgImzdg8" version="14.5.3" type="github">
   <diagram id="-ahcEEFHBMHVNG3VfpO8" name="Page-1">
     <mxGraphModel dx="946" dy="536" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -9,9 +9,6 @@
         </mxCell>
         <mxCell id="Uoi0qUkUmW6noMAwvUM0-1" value="AbstractApplicationContext#refresh" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="250" y="110" width="240" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="Uoi0qUkUmW6noMAwvUM0-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Uoi0qUkUmW6noMAwvUM0-3" target="Uoi0qUkUmW6noMAwvUM0-10">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Uoi0qUkUmW6noMAwvUM0-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Uoi0qUkUmW6noMAwvUM0-3" target="Uoi0qUkUmW6noMAwvUM0-4">
           <mxGeometry relative="1" as="geometry" />
@@ -31,7 +28,10 @@
         <mxCell id="Uoi0qUkUmW6noMAwvUM0-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Uoi0qUkUmW6noMAwvUM0-6" target="Uoi0qUkUmW6noMAwvUM0-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Uoi0qUkUmW6noMAwvUM0-6" value="利用ServletWebServerFactory创建WebServer&lt;br&gt;（JettyWebServer，TomcatWebServer，在这启动）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="Uoi0qUkUmW6noMAwvUM0-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Uoi0qUkUmW6noMAwvUM0-6" target="Uoi0qUkUmW6noMAwvUM0-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Uoi0qUkUmW6noMAwvUM0-6" value="利用ServletWebServerFactory创建WebServer" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="612.5" y="310" width="297.5" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Uoi0qUkUmW6noMAwvUM0-7" value="&lt;div&gt;JettyServletWebServerFactory&lt;/div&gt;&lt;div&gt;TomcatServletWebServerFactory&lt;/div&gt;&lt;div&gt;UndertowServletWebServerFactory&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
@@ -40,14 +40,32 @@
         <mxCell id="Uoi0qUkUmW6noMAwvUM0-9" value="&lt;div&gt;JettyWebServer&lt;/div&gt;&lt;div&gt;TomcatWebServer&lt;/div&gt;&lt;div&gt;UndertowServletWebServer&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="950" y="295" width="210" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Uoi0qUkUmW6noMAwvUM0-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Uoi0qUkUmW6noMAwvUM0-10" target="Uoi0qUkUmW6noMAwvUM0-17">
+        <mxCell id="Uoi0qUkUmW6noMAwvUM0-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Uoi0qUkUmW6noMAwvUM0-19" target="Uoi0qUkUmW6noMAwvUM0-20">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Uoi0qUkUmW6noMAwvUM0-10" value="ServletWebServerApplicationContext#finishRefresh" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="220" y="410" width="300" height="50" as="geometry" />
+        <mxCell id="Uoi0qUkUmW6noMAwvUM0-19" value="TomcatWebServer启动" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="612.5" y="410" width="297.5" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="Uoi0qUkUmW6noMAwvUM0-17" value="UndertowServletWebServer在这启动" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="612.5" y="410" width="268" height="50" as="geometry" />
+        <mxCell id="Uoi0qUkUmW6noMAwvUM0-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Uoi0qUkUmW6noMAwvUM0-20" target="Uoi0qUkUmW6noMAwvUM0-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Uoi0qUkUmW6noMAwvUM0-20" value="调用TomcatStarter#onStartup（servlet3.0规范）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="612.5" y="500" width="297.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Uoi0qUkUmW6noMAwvUM0-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Uoi0qUkUmW6noMAwvUM0-21" target="Uoi0qUkUmW6noMAwvUM0-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Uoi0qUkUmW6noMAwvUM0-21" value="调用ServletContextInitializer#onStartup" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="612.5" y="600" width="297.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Uoi0qUkUmW6noMAwvUM0-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.483;entryY=-0.04;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Uoi0qUkUmW6noMAwvUM0-22" target="Uoi0qUkUmW6noMAwvUM0-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Uoi0qUkUmW6noMAwvUM0-22" value="ServletWebServerApplicationContext#selfInitialize" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="612.5" y="700" width="297.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Uoi0qUkUmW6noMAwvUM0-23" value="&lt;pre&gt;RegistrationBean#onStartup&lt;br&gt;&lt;/pre&gt;&lt;pre&gt;将内部维护的Servlet，Listener，Filter注册到ServletContext&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="568" y="800" width="400" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
