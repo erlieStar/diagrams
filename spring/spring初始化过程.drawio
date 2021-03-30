@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-30T03:33:31.358Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="TyPmbtjaU_Gl4wlbL1tV" version="14.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-30T06:47:56.854Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="ybuwvHIez_5R5YWwOX3c" version="14.5.3" type="github">
   <diagram id="cTsIDNshQpALD4lZKKJo" name="Page-1">
     <mxGraphModel dx="946" dy="1705" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -40,7 +40,7 @@
         <mxCell id="OZ0cQjbIUvIi7hMA9QfN-6" value="&lt;pre&gt;&lt;pre&gt;执行GenericApplicationContext无参构造函数，&lt;/pre&gt;&lt;pre&gt;初始化beanFactory为DefaultListableBeanFactory&lt;/pre&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="550" y="-10" width="380" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="OZ0cQjbIUvIi7hMA9QfN-7" value="初始化AnnotatedBeanDefinitionReader&lt;br&gt;&lt;b&gt;并且注入6个BeanPostProcessor&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+        <mxCell id="OZ0cQjbIUvIi7hMA9QfN-7" value="初始化AnnotatedBeanDefinitionReader&lt;br&gt;&lt;b&gt;并且注入6个Bean&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="550" y="70" width="380" height="50" as="geometry" />
         </mxCell>
         <mxCell id="OZ0cQjbIUvIi7hMA9QfN-8" value="初始化ClassPathBeanDefinitionScanner" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
