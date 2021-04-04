@@ -1,1 +1,31 @@
-<mxfile host="app.diagrams.net" modified="2021-04-04T09:13:29.167Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" version="14.5.7" etag="TUxoMenw5AJR_6pCL-XJ" type="github"><diagram id="NUMJIw2PUcLRT8KmFtkN">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-04-04T10:52:40.887Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="JULpbuzHnKm0wUqifjWB" version="14.5.7" type="github">
+  <diagram id="NUMJIw2PUcLRT8KmFtkN" name="Page-1">
+    <mxGraphModel dx="946" dy="536" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="3ZFP7iC9fiDOG4gO19Lf-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="3ZFP7iC9fiDOG4gO19Lf-1" target="3ZFP7iC9fiDOG4gO19Lf-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3ZFP7iC9fiDOG4gO19Lf-1" value="&lt;pre&gt;XMLConfigBuilder#parse&lt;font color=&quot;#a9b7c6&quot; face=&quot;menlo&quot;&gt;&lt;span style=&quot;background-color: rgb(43 , 43 , 43) ; font-size: 13.5pt&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="120" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3ZFP7iC9fiDOG4gO19Lf-2" value="&lt;pre&gt;&lt;pre&gt;DefaultSqlSessionFactory&lt;/pre&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="240" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3ZFP7iC9fiDOG4gO19Lf-4" value="&lt;pre&gt;Configuration&lt;/pre&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="200" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="3ZFP7iC9fiDOG4gO19Lf-7" value="解析properties标签" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3ZFP7iC9fiDOG4gO19Lf-8" value="解析mappers&lt;span&gt;标签&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3ZFP7iC9fiDOG4gO19Lf-9" value="&lt;pre&gt;&lt;pre&gt;MapperRegistry&lt;/pre&gt;&lt;/pre&gt;&lt;pre&gt;&lt;pre&gt;Map&amp;lt;Class&amp;lt;?&amp;gt;, MapperProxyFactory&amp;lt;?&amp;gt;&amp;gt;&lt;/pre&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="710" y="240" width="290" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
