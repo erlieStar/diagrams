@@ -1,16 +1,16 @@
-<mxfile host="app.diagrams.net" modified="2021-04-22T07:36:29.991Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="hGJIHZBEkxcSMd8Rj5to" version="14.6.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-22T07:38:15.859Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="BP4neMnTGxsuGDsWav2n" version="14.6.3" type="github">
   <diagram id="cXLemdQ3lmXAaed6vooL" name="Page-1">
     <mxGraphModel dx="946" dy="536" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="YwbbB_GByJz_Xk3Io2EC-1" value="commitlog offset&lt;br&gt;commitlog偏移量" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="YwbbB_GByJz_Xk3Io2EC-1" value="commitlog offset&lt;br&gt;commitlog偏移量" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="140" y="140" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="YwbbB_GByJz_Xk3Io2EC-2" value="size&lt;br&gt;消息大小" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="YwbbB_GByJz_Xk3Io2EC-2" value="size&lt;br&gt;消息大小" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="260" y="140" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="YwbbB_GByJz_Xk3Io2EC-3" value="tag hashcode&lt;br&gt;消息tag的hash值" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="YwbbB_GByJz_Xk3Io2EC-3" value="tag hashcode&lt;br&gt;消息tag的hash值" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="380" y="140" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="pcUxNSp1fQ4EVRf79VDk-6" value="8字节" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
