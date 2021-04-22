@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-22T08:23:44.142Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="0UjKp3cpSx1YgPn_SWRS" version="14.6.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-22T08:25:16.513Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="MneSP_jOy2cqKGPNTXRY" version="14.6.3" type="github">
   <diagram id="NQNQL-IsYVZrM8-REyhW" name="Page-1">
     <mxGraphModel dx="1773" dy="536" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -125,7 +125,7 @@
           <mxGeometry x="550" y="290" width="120" height="20" as="geometry" />
         </mxCell>
         <mxCell id="EfNjIKd8hFoJNDSCU2aa-73" value="&lt;div&gt;重新设置消息topic，queueId为原来的&lt;/div&gt;&lt;div&gt;（原来的topic，queueId在消息扩展属性中）&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="220" y="425" width="280" height="40" as="geometry" />
+          <mxGeometry x="220" y="430" width="280" height="40" as="geometry" />
         </mxCell>
         <mxCell id="-DXZLvyKEFGeLmnr95ct-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=0.717;entryY=1.025;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;endArrow=none;endFill=0;" edge="1" parent="1" source="-DXZLvyKEFGeLmnr95ct-3" target="EfNjIKd8hFoJNDSCU2aa-16">
           <mxGeometry relative="1" as="geometry" />
