@@ -1,1 +1,19 @@
-<mxfile host="app.diagrams.net" modified="2021-05-13T09:02:24.599Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" version="14.6.11" etag="vo-9veyX4JxSFlvpD0Oa" type="github"><diagram id="fhXGfms5IDuIGhwLgxV9">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-05-13T12:03:48.919Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="aYjYp3v3w1QvSU8JuHwh" version="14.6.11" type="github">
+  <diagram id="fhXGfms5IDuIGhwLgxV9" name="Page-1">
+    <mxGraphModel dx="946" dy="536" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="FvoPV2rf9jrxFcOhJpx_-1" value="&lt;pre&gt;PullMessageService#start&lt;/pre&gt;&lt;pre&gt;开启消息拉取任务线程&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="121" y="80" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FvoPV2rf9jrxFcOhJpx_-2" value="&lt;pre&gt;pullRequestQueue.take()&lt;br&gt;&lt;/pre&gt;&lt;pre&gt;从阻塞队列中获取消息拉取任务&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="121" y="180" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FvoPV2rf9jrxFcOhJpx_-3" value="&lt;pre&gt;DefaultMQPushConsumerImpl#pullMessage&lt;br&gt;&lt;/pre&gt;&lt;pre&gt;根据任务拉取消息&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="96.5" y="280" width="299" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
