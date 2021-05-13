@@ -1,23 +1,23 @@
-<mxfile host="app.diagrams.net" modified="2021-04-25T08:19:47.384Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="MJiPBtUasbQ1AEIwRBJn" version="14.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-13T09:01:39.593Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="YyPbtYlYy_uSawhJ8Wbp" version="14.6.11" type="github">
   <diagram id="x_yBouvJ8vNpvIBVo2f2" name="Page-1">
-    <mxGraphModel dx="1426" dy="771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="946" dy="536" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="1C4FP6_OPl20_pFZ42vm-1" value="DefaultMQPushConsumer#start" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="100" y="250" width="200" height="60" as="geometry" />
+        <mxCell id="1C4FP6_OPl20_pFZ42vm-1" value="DefaultMQPushConsumer#start" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="100" y="330" width="200" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="1C4FP6_OPl20_pFZ42vm-3" value="构建主题订阅消息&lt;br&gt;1. 设置的订阅消息（调用subscribe方法设置的）&lt;br&gt;2. 订阅重试消息（%RETRY%+消费组名）&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="370" y="220" width="290" height="70" as="geometry" />
+        <mxCell id="1C4FP6_OPl20_pFZ42vm-3" value="DefaultMQPushConsumerImpl#copySubscription&lt;br&gt;&lt;br&gt;构建主题订阅消息&lt;br&gt;1. 设置的订阅消息（调用subscribe方法设置的）&lt;br&gt;2. 订阅重试消息（%RETRY%+消费组名）&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="370" y="220" width="290" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="1C4FP6_OPl20_pFZ42vm-4" value="初始化MQClientInstance&lt;br&gt;初始化RebalanceImpl" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="1C4FP6_OPl20_pFZ42vm-4" value="&lt;br&gt;初始化RebalanceImpl（消息重平衡）&lt;br&gt;初始化PullAPIWrapper（拉取消息）" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="370" y="330" width="290" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="1C4FP6_OPl20_pFZ42vm-5" value="&lt;div&gt;检查配置，consumerGroup不能为空&lt;/div&gt;&lt;div&gt;messageListener不能为空等&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="420" y="130" width="240" height="60" as="geometry" />
+        <mxCell id="1C4FP6_OPl20_pFZ42vm-5" value="&lt;div&gt;DefaultMQPushConsumerImpl#checkConfig&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;检查配置，consumerGroup不能为空&lt;/div&gt;&lt;div&gt;messageListener不能为空等&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="370" y="130" width="290" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="1C4FP6_OPl20_pFZ42vm-6" value="开始启动&lt;br&gt;1.&amp;nbsp;&lt;br&gt;2. 开启各种定时任务&lt;br&gt;3. 开始拉取消息&lt;br&gt;4.&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="370" y="450" width="240" height="80" as="geometry" />
+        <mxCell id="1C4FP6_OPl20_pFZ42vm-6" value="&lt;pre&gt;MQClientInstance#start&lt;/pre&gt;开始监听&lt;br&gt;1.&amp;nbsp;&lt;br&gt;2. 开启各种定时任务&lt;br&gt;3. 开始拉取消息&lt;br&gt;4.&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="370" y="450" width="280" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
