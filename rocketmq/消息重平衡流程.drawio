@@ -1,43 +1,58 @@
-<mxfile host="app.diagrams.net" modified="2021-05-14T02:34:24.906Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="SGNkpNvJyAbSTDNAjMyo" version="14.6.12" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-14T08:26:11.381Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="3M5OBbXOSRdTmtiNGdYT" version="14.6.13" type="github">
   <diagram id="ggHOKOFDzpn5by2C9Cfr" name="Page-1">
     <mxGraphModel dx="946" dy="536" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="HPDDb3DJ2kam_rR2778l-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WXPuARuU6ua65XFEVFct-1" target="WXPuARuU6ua65XFEVFct-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="WXPuARuU6ua65XFEVFct-1" value="RebalanceService#run&lt;br&gt;重平衡线程" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="140" y="210" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HPDDb3DJ2kam_rR2778l-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WXPuARuU6ua65XFEVFct-2" target="WXPuARuU6ua65XFEVFct-3">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="WXPuARuU6ua65XFEVFct-2" value="每隔20s执行一次重平衡" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="120" y="300" width="200" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="HPDDb3DJ2kam_rR2778l-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WXPuARuU6ua65XFEVFct-3" target="WXPuARuU6ua65XFEVFct-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="WXPuARuU6ua65XFEVFct-3" value="获取topic对应的队列信息mqSet和消费组当前所有的消费者cidAll" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="120" y="390" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HPDDb3DJ2kam_rR2778l-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WXPuARuU6ua65XFEVFct-4" target="JfR4FzNuTfF0PEwEgTeS-1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="WXPuARuU6ua65XFEVFct-4" value="根据负载均衡策略得到当前消费者分配到的消息集合" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="120" y="490" width="200" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="JfR4FzNuTfF0PEwEgTeS-1" value="对比原先分配的队列和现在分配的队列" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="HPDDb3DJ2kam_rR2778l-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JfR4FzNuTfF0PEwEgTeS-1" target="HPDDb3DJ2kam_rR2778l-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JfR4FzNuTfF0PEwEgTeS-1" value="对比原先分配的队列和现在分配的队列" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="120" y="590" width="200" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="JfR4FzNuTfF0PEwEgTeS-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="JfR4FzNuTfF0PEwEgTeS-2" target="JfR4FzNuTfF0PEwEgTeS-3">
+        <mxCell id="JfR4FzNuTfF0PEwEgTeS-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="JfR4FzNuTfF0PEwEgTeS-2" target="JfR4FzNuTfF0PEwEgTeS-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="JfR4FzNuTfF0PEwEgTeS-2" value="PullMessageService#run&lt;br&gt;拉取消息线程" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="JfR4FzNuTfF0PEwEgTeS-2" value="PullMessageService#run&lt;br&gt;拉取消息线程" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="520" y="210" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="JfR4FzNuTfF0PEwEgTeS-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JfR4FzNuTfF0PEwEgTeS-3" target="JfR4FzNuTfF0PEwEgTeS-6">
+        <mxCell id="JfR4FzNuTfF0PEwEgTeS-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="JfR4FzNuTfF0PEwEgTeS-3" target="JfR4FzNuTfF0PEwEgTeS-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="JfR4FzNuTfF0PEwEgTeS-3" value="&lt;pre&gt;pullRequestQueue.take()&lt;/pre&gt;&lt;pre&gt;&lt;pre&gt;客户端启动后不断从阻塞队列中获取消息拉取任务&lt;/pre&gt;&lt;pre&gt;然后拉取消息&lt;/pre&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="JfR4FzNuTfF0PEwEgTeS-3" value="&lt;pre&gt;pullRequestQueue.take()&lt;/pre&gt;&lt;pre&gt;&lt;pre&gt;客户端启动后不断从阻塞队列中获取消息拉取任务&lt;/pre&gt;&lt;pre&gt;然后拉取消息&lt;/pre&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="450" y="300" width="300" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="JfR4FzNuTfF0PEwEgTeS-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="JfR4FzNuTfF0PEwEgTeS-4" target="JfR4FzNuTfF0PEwEgTeS-3">
+        <mxCell id="JfR4FzNuTfF0PEwEgTeS-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="JfR4FzNuTfF0PEwEgTeS-4" target="JfR4FzNuTfF0PEwEgTeS-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="JfR4FzNuTfF0PEwEgTeS-4" value="如果原先队列中不包含新分配的队列&lt;br&gt;则创建PullRequest，放到PullMessageService的&lt;br&gt;阻塞队列&lt;span&gt;pullRequestQueue&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="120" y="710" width="200" height="60" as="geometry" />
+        <mxCell id="JfR4FzNuTfF0PEwEgTeS-4" value="如果原先队列中不包含新分配的队列&lt;br&gt;则创建PullRequest，放到PullMessageService的&lt;br&gt;阻塞队列&lt;span&gt;pullRequestQueue&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="120" y="780" width="200" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="JfR4FzNuTfF0PEwEgTeS-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="JfR4FzNuTfF0PEwEgTeS-6" target="JfR4FzNuTfF0PEwEgTeS-3">
+        <mxCell id="JfR4FzNuTfF0PEwEgTeS-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" parent="1" source="JfR4FzNuTfF0PEwEgTeS-6" target="JfR4FzNuTfF0PEwEgTeS-3" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="780" y="475" />
@@ -45,8 +60,14 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="JfR4FzNuTfF0PEwEgTeS-6" value="根据PullRequest拉取消息，拉取成功后创建新的PullRequest放到&lt;span&gt;pullRequestQueue&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="JfR4FzNuTfF0PEwEgTeS-6" value="根据PullRequest拉取消息，拉取成功后创建新的PullRequest放到&lt;span&gt;pullRequestQueue&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="505" y="440" width="190" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="HPDDb3DJ2kam_rR2778l-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HPDDb3DJ2kam_rR2778l-1" target="JfR4FzNuTfF0PEwEgTeS-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HPDDb3DJ2kam_rR2778l-1" value="新队列集合不包含原先的队列，则停止原先队列消费并移除" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="680" width="200" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
