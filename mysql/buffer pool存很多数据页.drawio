@@ -1,1 +1,25 @@
-<mxfile host="app.diagrams.net" modified="2021-05-16T12:09:03.605Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" version="14.6.13" etag="ud6LerholNRoUEd8Cc_T" type="github"><diagram id="vcTA-PcOX_x4p1Z_rkb7">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-05-16T12:11:56.911Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="hNrYfdA-OlQKxW_64f_V" version="14.6.13" type="github">
+  <diagram id="vcTA-PcOX_x4p1Z_rkb7" name="Page-1">
+    <mxGraphModel dx="946" dy="536" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="dITAn65433x_Itvh3lYJ-1" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="150" y="180" width="480" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="dITAn65433x_Itvh3lYJ-2" value="&lt;span&gt;Buffer Pool ，默认128m&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="310" y="200" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="dITAn65433x_Itvh3lYJ-3" value="数据页&lt;br&gt;16k" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="210" y="250" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dITAn65433x_Itvh3lYJ-4" value="数据页&lt;br&gt;16k" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="345" y="250" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dITAn65433x_Itvh3lYJ-5" value="数据页&lt;br&gt;16k" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="480" y="250" width="90" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
