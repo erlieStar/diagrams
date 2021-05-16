@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-16T10:53:15.156Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="rJLrZY0rHRLGZFjBTOGI" version="14.6.13" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-16T11:03:22.873Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="cR7O4DLpkcHerIDV_NLz" version="14.6.13" type="github">
   <diagram id="cnLbbzYd8GaH52xd0-ac" name="Page-1">
     <mxGraphModel dx="1773" dy="536" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -13,10 +13,10 @@
         <mxCell id="vlhiRRyf8UQ5dl0ag2m8-7" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="vlhiRRyf8UQ5dl0ag2m8-1" target="vlhiRRyf8UQ5dl0ag2m8-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="vlhiRRyf8UQ5dl0ag2m8-1" value="binLog" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+        <mxCell id="vlhiRRyf8UQ5dl0ag2m8-1" value="binlog" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="100" y="240" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="vlhiRRyf8UQ5dl0ag2m8-2" value="Slave&lt;br&gt;从库" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="vlhiRRyf8UQ5dl0ag2m8-2" value="slave&lt;br&gt;从库" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="340" y="240" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="vlhiRRyf8UQ5dl0ag2m8-3" value="bi&lt;br&gt;报表统计" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
@@ -28,7 +28,7 @@
         <mxCell id="vlhiRRyf8UQ5dl0ag2m8-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="vlhiRRyf8UQ5dl0ag2m8-8" target="vlhiRRyf8UQ5dl0ag2m8-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="vlhiRRyf8UQ5dl0ag2m8-8" value="Master&lt;br&gt;主库" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="vlhiRRyf8UQ5dl0ag2m8-8" value="master&lt;br&gt;主库" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="-60" y="240" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
