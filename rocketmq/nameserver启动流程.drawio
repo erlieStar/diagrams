@@ -1,23 +1,35 @@
-<mxfile host="app.diagrams.net" modified="2021-05-17T09:24:12.976Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="maO5t6sgzOhGFeImOGBd" version="14.6.13" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-17T09:26:22.872Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="lXeWFFZr2nNWfrd7Ldbl" version="14.6.13" type="github">
   <diagram id="iG5Guh-gVL9Y_2O44tq8" name="Page-1">
     <mxGraphModel dx="946" dy="536" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="huw0FP6TZixxuaSahoYg-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="huw0FP6TZixxuaSahoYg-1" target="huw0FP6TZixxuaSahoYg-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="huw0FP6TZixxuaSahoYg-1" value="NamesrvStartup#main" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="150" y="90" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="huw0FP6TZixxuaSahoYg-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="huw0FP6TZixxuaSahoYg-2" target="huw0FP6TZixxuaSahoYg-4">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="huw0FP6TZixxuaSahoYg-2" value="解析配置文件和命令行中的参数，将配置信息解析为2个配置类NamesrvConfig&lt;br&gt;NettyServerConfig" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="140" y="190" width="180" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="huw0FP6TZixxuaSahoYg-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="huw0FP6TZixxuaSahoYg-3" target="huw0FP6TZixxuaSahoYg-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="huw0FP6TZixxuaSahoYg-3" value="NamesrvController#initialize&lt;br&gt;NamesrvController初始化" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="140" y="410" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="huw0FP6TZixxuaSahoYg-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="huw0FP6TZixxuaSahoYg-4" target="huw0FP6TZixxuaSahoYg-3">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="huw0FP6TZixxuaSahoYg-4" value="通过NamesrvConfig&lt;br&gt;NettyServerConfig创建&lt;span&gt;NamesrvController&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="140" y="300" width="180" height="80" as="geometry" />
         </mxCell>
         <mxCell id="huw0FP6TZixxuaSahoYg-5" value="NamesrvController#start&lt;br&gt;NamesrvController启动" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="140" y="510" width="180" height="80" as="geometry" />
+          <mxGeometry x="140" y="520" width="180" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
