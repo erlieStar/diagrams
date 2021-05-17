@@ -1,17 +1,26 @@
-<mxfile host="app.diagrams.net" modified="2021-05-13T12:03:48.919Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="aYjYp3v3w1QvSU8JuHwh" version="14.6.11" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-17T02:27:15.408Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="a1at7pEkEnc6WnZ579S0" version="14.6.13" type="github">
   <diagram id="fhXGfms5IDuIGhwLgxV9" name="Page-1">
     <mxGraphModel dx="946" dy="536" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="FvoPV2rf9jrxFcOhJpx_-1" value="&lt;pre&gt;PullMessageService#start&lt;/pre&gt;&lt;pre&gt;开启消息拉取任务线程&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="FvoPV2rf9jrxFcOhJpx_-1" value="&lt;pre&gt;&lt;pre&gt;DefaultMQPushConsumerImpl#start&lt;font color=&quot;#a9b7c6&quot; face=&quot;menlo&quot; style=&quot;background-color: rgb(43 , 43 , 43)&quot;&gt;&lt;span style=&quot;font-size: 13.5pt&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;/pre&gt;&lt;pre&gt;消费者启动&lt;/pre&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="121" y="80" width="250" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="FvoPV2rf9jrxFcOhJpx_-2" value="&lt;pre&gt;pullRequestQueue.take()&lt;br&gt;&lt;/pre&gt;&lt;pre&gt;从阻塞队列中获取消息拉取任务&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="121" y="180" width="250" height="60" as="geometry" />
+        <mxCell id="FvoPV2rf9jrxFcOhJpx_-3" value="&lt;pre&gt;PullMessageService#start&lt;br&gt;开启拉取消息线程&lt;br&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="121" y="180" width="249" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="FvoPV2rf9jrxFcOhJpx_-3" value="&lt;pre&gt;DefaultMQPushConsumerImpl#pullMessage&lt;br&gt;&lt;/pre&gt;&lt;pre&gt;根据任务拉取消息&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="96.5" y="280" width="299" height="60" as="geometry" />
+        <mxCell id="_jwQBm6dQHXzonY_FXIu-1" value="&lt;pre&gt;pullRequestQueue.take()&lt;/pre&gt;&lt;pre&gt;&lt;pre&gt;客户端启动后不断从阻塞队列中获取消息拉取任务&lt;/pre&gt;&lt;pre&gt;pullRequest然后拉取消息&lt;/pre&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="101" y="280" width="290" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_jwQBm6dQHXzonY_FXIu-2" value="&lt;pre&gt;DefaultMQPushConsumerImpl#pullMessage&lt;br&gt;根据pullRequest拉取消息&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="87" y="410" width="318" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_jwQBm6dQHXzonY_FXIu-3" value="如果消费者状态异常，或者消费者被挂起，则将pullRequest延长一段时间放入&lt;span&gt;pullRequestQueue&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="80" width="290" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_jwQBm6dQHXzonY_FXIu-4" value="对消息拉取进行流控&lt;br&gt;1. 缓冲消息数量超过1000&lt;br&gt;2. 缓冲消息大小超过100mb&lt;br&gt;3. 如果消息是顺序消息，最小偏移量和最大偏移量的跨度超过2000&lt;br&gt;&lt;br&gt;都会将消息拉取请求延长一段时间放入pullRequestQueue" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="511" y="190" width="300" height="130" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
