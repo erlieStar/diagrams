@@ -1,1 +1,28 @@
-<mxfile host="app.diagrams.net" modified="2021-05-18T06:24:49.991Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" version="14.6.13" etag="_V0VPfMZPhtsr7vypceR" type="github"><diagram id="yx2elE3ZTQ-cZdX_c6Ws">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-05-18T06:43:31.963Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="2aEm4OSg0ZpPXDIzMRFH" version="14.6.13" type="github">
+  <diagram id="yx2elE3ZTQ-cZdX_c6Ws" name="Page-1">
+    <mxGraphModel dx="946" dy="536" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="yzfBZjzHWH2NQt0IRsQE-1" value="IndexFile" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="970" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yzfBZjzHWH2NQt0IRsQE-2" value="&lt;pre&gt;ConsumeQueue&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="970" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yzfBZjzHWH2NQt0IRsQE-3" value="&lt;pre&gt;DefaultMessageStore&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="130" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yzfBZjzHWH2NQt0IRsQE-5" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="yzfBZjzHWH2NQt0IRsQE-4" target="yzfBZjzHWH2NQt0IRsQE-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yzfBZjzHWH2NQt0IRsQE-6" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="yzfBZjzHWH2NQt0IRsQE-4" target="yzfBZjzHWH2NQt0IRsQE-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yzfBZjzHWH2NQt0IRsQE-4" value="&lt;pre&gt;&lt;pre&gt;ReputMessageService&lt;/pre&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="130" width="210" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
