@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-18T02:57:05.304Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="jak7J-mp_n9AuOHHcsB0" version="14.6.13" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-18T02:58:11.191Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="8tI_58PSxh4YbVPW-hSN" version="14.6.13" type="github">
   <diagram id="xAAkHGNQTjgieo-5SQ3h" name="Page-1">
     <mxGraphModel dx="946" dy="536" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -37,6 +37,14 @@
         <mxCell id="1UQ5DoTpQU4Rsa3m7vP7-6" value="&lt;pre&gt;&lt;pre&gt;&lt;br&gt;&lt;/pre&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="187.5" y="660" width="192.5" height="130" as="geometry" />
         </mxCell>
+        <mxCell id="1UQ5DoTpQU4Rsa3m7vP7-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="1UQ5DoTpQU4Rsa3m7vP7-7" target="1UQ5DoTpQU4Rsa3m7vP7-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1UQ5DoTpQU4Rsa3m7vP7-13" value="发送注册请求" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1UQ5DoTpQU4Rsa3m7vP7-12">
+          <mxGeometry x="-0.0228" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="1UQ5DoTpQU4Rsa3m7vP7-7" value="&lt;pre&gt;&lt;pre&gt;NettyRemotingClient&lt;/pre&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="202.5" y="720" width="160" height="60" as="geometry" />
         </mxCell>
@@ -45,6 +53,9 @@
         </mxCell>
         <mxCell id="1UQ5DoTpQU4Rsa3m7vP7-9" value="&lt;pre&gt;BrokerOuterAPI&lt;/pre&gt;&lt;pre&gt;对外通信组件&lt;/pre&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="217.5" y="680" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="1UQ5DoTpQU4Rsa3m7vP7-11" value="NameServer" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="720" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
