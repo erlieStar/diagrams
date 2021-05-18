@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-18T02:56:35.825Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="ccqjc2wgWtj1Oj8R5hwJ" version="14.6.13" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-18T02:57:05.304Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="jak7J-mp_n9AuOHHcsB0" version="14.6.13" type="github">
   <diagram id="xAAkHGNQTjgieo-5SQ3h" name="Page-1">
     <mxGraphModel dx="946" dy="536" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -28,7 +28,7 @@
         <mxCell id="1UQ5DoTpQU4Rsa3m7vP7-3" value="&lt;pre&gt;BrokerController&lt;/pre&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="267.5" y="410" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="1UQ5DoTpQU4Rsa3m7vP7-4" value="功能组件" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="1UQ5DoTpQU4Rsa3m7vP7-4" value="功能组件&lt;br&gt;配置信息" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="190" y="440" width="190" height="60" as="geometry" />
         </mxCell>
         <mxCell id="1UQ5DoTpQU4Rsa3m7vP7-5" value="&lt;pre&gt;NettyRemotingServer&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
