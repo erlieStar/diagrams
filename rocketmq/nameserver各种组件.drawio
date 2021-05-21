@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-21T09:20:41.228Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="duqbrpBgUQJiYNOHQDWn" version="14.6.13" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-21T09:49:45.887Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="T5lkC380YXFy2-mFCvD-" version="14.6.13" type="github">
   <diagram id="dmptoUhVElFsvyss6TJ9" name="Page-1">
     <mxGraphModel dx="946" dy="536" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -19,12 +19,25 @@
         <mxCell id="VmqIFKyUQbiOCse_WFED-5" value="&lt;pre&gt;NettyRemotingServer&lt;/pre&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="315" y="270" width="180" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="VmqIFKyUQbiOCse_WFED-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="VmqIFKyUQbiOCse_WFED-6" target="VmqIFKyUQbiOCse_WFED-8" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="VmqIFKyUQbiOCse_WFED-10" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" parent="1" source="VmqIFKyUQbiOCse_WFED-6" target="VmqIFKyUQbiOCse_WFED-8" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="690" y="350" />
+              <mxPoint x="690" y="250" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="VmqIFKyUQbiOCse_WFED-12" value="拉取topic路由信息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="VmqIFKyUQbiOCse_WFED-10" vertex="1" connectable="0">
-          <mxGeometry x="-0.0667" relative="1" as="geometry">
-            <mxPoint as="offset" />
+        <mxCell id="2lLkB-Ym-qxik5XgdPjk-2" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="VmqIFKyUQbiOCse_WFED-6" target="2lLkB-Ym-qxik5XgdPjk-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="690" y="350" />
+              <mxPoint x="690" y="450" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2lLkB-Ym-qxik5XgdPjk-6" value="拉取topic路由信息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="2lLkB-Ym-qxik5XgdPjk-2">
+          <mxGeometry x="-0.4457" y="-2" relative="1" as="geometry">
+            <mxPoint x="13" y="-2" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="VmqIFKyUQbiOCse_WFED-6" value="&lt;pre&gt;DefaultRequestProcessor&lt;/pre&gt;&lt;pre&gt;NameServer的所有请求类型&lt;/pre&gt;&lt;pre&gt;都会交给这一个处理器&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
@@ -42,7 +55,10 @@
           <mxGeometry y="320" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="VmqIFKyUQbiOCse_WFED-8" value="Producer" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="1" vertex="1">
-          <mxGeometry x="760" y="320" width="120" height="60" as="geometry" />
+          <mxGeometry x="760" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2lLkB-Ym-qxik5XgdPjk-1" value="Consumer" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="760" y="420" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
