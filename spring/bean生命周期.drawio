@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-27T07:24:21.159Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="Hi8tbYAm-SLnvV9IWvVp" version="14.7.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-27T07:35:02.216Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="ev9od40EXoZnesAwb5Pa" version="14.7.2" type="github">
   <diagram id="EA8M5BCqdz6qAtu27PJy" name="Page-1">
     <mxGraphModel dx="946" dy="536" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -209,7 +209,7 @@
         <mxCell id="Llov8eVF90AyNkguM5eZ-26" value="&lt;span style=&quot;box-sizing: border-box ; outline: 0px ; overflow-wrap: break-word&quot;&gt;&lt;div&gt;&lt;span&gt;依次回调如下接口（在2个地方回调）&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;BeanNameAware，BeanClassLoaderAware，BeanFactoryAware，EnvironmentAware等&lt;/div&gt;&lt;/span&gt;&lt;span&gt;1. 调用AbstractAutowireCapableBeanFactory#invokeAwareMethods&lt;br&gt;2.&amp;nbsp;&lt;/span&gt;ApplicationContextAwareProcessor#postProcessBeforeInitialization&lt;br&gt;&lt;span&gt;（在Bean初始化前阶段会执行这个方法，放到这里是功能一样）&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="400" y="855" width="500" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="b-vEHUDK3Og_8GCWMjly-2" value="&lt;span style=&quot;box-sizing: border-box ; outline: 0px ; overflow-wrap: break-word&quot;&gt;&lt;span style=&quot;box-sizing: border-box ; outline: 0px ; overflow-wrap: break-word&quot;&gt;SmartInitializingSingleton#afterSingletonsInstantiated&lt;br&gt;&lt;/span&gt;启动阶段，初始化所有非延迟单例Bean完成后，会回调这个方法&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="b-vEHUDK3Og_8GCWMjly-2" value="&lt;span style=&quot;box-sizing: border-box ; outline: 0px ; overflow-wrap: break-word&quot;&gt;&lt;span style=&quot;box-sizing: border-box ; outline: 0px ; overflow-wrap: break-word&quot;&gt;SmartInitializingSingleton#afterSingletonsInstantiated&lt;br&gt;&lt;/span&gt;启动阶段，初始化所有非延迟单例Bean完成后，会回调这个方法，只会回调一次&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="400" y="1280" width="460" height="60" as="geometry" />
         </mxCell>
       </root>
