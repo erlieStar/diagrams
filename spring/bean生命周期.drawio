@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-27T06:56:42.921Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="nRKlXwd_5dnV_5eBn1an" version="14.7.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-27T07:14:26.486Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="q2TMLgBOFlk5Oyaq00jJ" version="14.7.2" type="github">
   <diagram id="EA8M5BCqdz6qAtu27PJy" name="Page-1">
     <mxGraphModel dx="946" dy="536" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -194,7 +194,7 @@
         <mxCell id="Llov8eVF90AyNkguM5eZ-21" value="&lt;span style=&quot;box-sizing: border-box ; outline: 0px ; overflow-wrap: break-word&quot;&gt;&lt;div&gt;1.@PostConstruct标注方法&lt;/div&gt;&lt;div&gt;（Bean初始化前阶段执行了，这里再放一次表明这3个方法功能一样）&lt;/div&gt;&lt;div&gt;2. 实现InitializingBean接口的afterPropertiesSet()方法&lt;/div&gt;&lt;div&gt;3. 自定义初始方法&lt;/div&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="400" y="1080" width="460" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Llov8eVF90AyNkguM5eZ-22" value="&lt;span style=&quot;box-sizing: border-box ; outline: 0px ; overflow-wrap: break-word&quot;&gt;&lt;span style=&quot;box-sizing: border-box ; outline: 0px ; overflow-wrap: break-word&quot;&gt;BeanPostProcessor#postProcessBeforeInitialization&lt;br&gt;&lt;/span&gt;&lt;span&gt;执行@PostConstruct标注的方法等&lt;/span&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+        <mxCell id="Llov8eVF90AyNkguM5eZ-22" value="&lt;span style=&quot;box-sizing: border-box ; outline: 0px ; overflow-wrap: break-word&quot;&gt;&lt;span style=&quot;box-sizing: border-box ; outline: 0px ; overflow-wrap: break-word&quot;&gt;DestructionAwareBeanPostProcessor#postProcessBeforeDestruction&lt;br&gt;&lt;/span&gt;&lt;span&gt;执行@&lt;/span&gt;PreDestroy&lt;span&gt;标注的方法等&lt;/span&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="400" y="1390" width="460" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Llov8eVF90AyNkguM5eZ-23" value="&lt;span style=&quot;box-sizing: border-box ; outline: 0px ; overflow-wrap: break-word&quot;&gt;&lt;div&gt;1. @PreDestory标注方法&lt;/div&gt;（Bean 销毁前阶段执行了，这里再放一次表明这3个方法功能一样&lt;span&gt;）&lt;/span&gt;&lt;br&gt;&lt;div&gt;2. 实现DisposableBean接口的destory()方法&lt;/div&gt;&lt;div&gt;3. 自定义销毁方法&lt;/div&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
