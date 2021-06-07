@@ -1,20 +1,35 @@
-<mxfile host="app.diagrams.net" modified="2021-06-05T12:01:18.098Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="lP8oHW4qsrTknJHgLHJR" version="14.7.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-07T15:28:58.869Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="Mg_KzYMsHHsjHs3Zo1M4" version="14.7.6" type="github">
   <diagram id="AOVcSznsZRtc9h9eeb90" name="Page-1">
-    <mxGraphModel dx="946" dy="536" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="946" dy="537" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="LdtN1b5lPnWMHYO2wjPW-1" value="将对应的服务实现类解析为ServiceBean，并注入到spring容器中" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="260" y="120" width="230" height="60" as="geometry" />
+        <mxCell id="N1Kv-5R7IUUjwNJtqWR1-1" value="&lt;pre&gt;ServiceBean&lt;/pre&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="70" width="100" height="300" as="geometry" />
         </mxCell>
-        <mxCell id="LdtN1b5lPnWMHYO2wjPW-2" value="spring容器启动完成&lt;br&gt;发布ContextRefreshedEvent事件&lt;br&gt;ServiceBean监听到事件，开始导出" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="260" y="210" width="230" height="60" as="geometry" />
+        <mxCell id="N1Kv-5R7IUUjwNJtqWR1-6" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="N1Kv-5R7IUUjwNJtqWR1-1">
+          <mxGeometry x="45" y="70" width="10" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="LdtN1b5lPnWMHYO2wjPW-3" value="根据配置拼接URL信息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="260" y="310" width="230" height="60" as="geometry" />
+        <mxCell id="N1Kv-5R7IUUjwNJtqWR1-2" value="&lt;pre&gt;&lt;pre&gt;ServiceConfig&lt;/pre&gt;&lt;/pre&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="260" y="70" width="120" height="300" as="geometry" />
         </mxCell>
-        <mxCell id="LdtN1b5lPnWMHYO2wjPW-4" value="将对应的服务包装成AbstractProxyInvoker" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="260" y="410" width="230" height="60" as="geometry" />
+        <mxCell id="N1Kv-5R7IUUjwNJtqWR1-11" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="N1Kv-5R7IUUjwNJtqWR1-2">
+          <mxGeometry x="55" y="70" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="N1Kv-5R7IUUjwNJtqWR1-3" value="&lt;pre&gt;&lt;pre&gt;&lt;pre&gt;QosProtocolWrapper&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="430" y="70" width="170" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="N1Kv-5R7IUUjwNJtqWR1-4" value="&lt;pre&gt;&lt;pre&gt;&lt;pre&gt;&lt;pre&gt;ProtocolListenerWrapper&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="657" y="70" width="183" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="N1Kv-5R7IUUjwNJtqWR1-5" value="&lt;pre&gt;&lt;pre&gt;&lt;pre&gt;&lt;pre&gt;&lt;pre&gt;&lt;pre&gt;RegistryProtocol&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="890" y="70" width="160" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="N1Kv-5R7IUUjwNJtqWR1-10" value="&lt;pre&gt;onApplicationEvent&lt;/pre&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="220" y="150" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="N1Kv-5R7IUUjwNJtqWR1-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="N1Kv-5R7IUUjwNJtqWR1-6" target="N1Kv-5R7IUUjwNJtqWR1-2">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
