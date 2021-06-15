@@ -1,1 +1,43 @@
-<mxfile host="app.diagrams.net" modified="2021-06-15T03:38:48.862Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" version="14.7.7" etag="OyC2-j01HO4i4MKGFAaI" type="github"><diagram id="zrVdomL0mERQolu0k9rl">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-06-15T06:45:45.902Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="9QIhsOtHY9o0dCc-OYoW" version="14.7.7" type="github">
+  <diagram id="zrVdomL0mERQolu0k9rl" name="Page-1">
+    <mxGraphModel dx="946" dy="536" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="THbM5ONuqLWvobYrhW5Y-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="THbM5ONuqLWvobYrhW5Y-1" target="THbM5ONuqLWvobYrhW5Y-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="THbM5ONuqLWvobYrhW5Y-1" value="&lt;pre&gt;getExtension&lt;/pre&gt;&lt;pre&gt;获取普通扩展类&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="THbM5ONuqLWvobYrhW5Y-6" value="返回实现类" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="THbM5ONuqLWvobYrhW5Y-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="THbM5ONuqLWvobYrhW5Y-9" target="THbM5ONuqLWvobYrhW5Y-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="THbM5ONuqLWvobYrhW5Y-9" value="从配置文件中获取接口的所有实现类" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="230" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="THbM5ONuqLWvobYrhW5Y-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="THbM5ONuqLWvobYrhW5Y-13" target="THbM5ONuqLWvobYrhW5Y-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="THbM5ONuqLWvobYrhW5Y-13" value="根据name找到对应的实现类，并实例化" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="THbM5ONuqLWvobYrhW5Y-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="THbM5ONuqLWvobYrhW5Y-14" target="THbM5ONuqLWvobYrhW5Y-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="THbM5ONuqLWvobYrhW5Y-14" value="执行ioc" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="THbM5ONuqLWvobYrhW5Y-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="THbM5ONuqLWvobYrhW5Y-15" target="THbM5ONuqLWvobYrhW5Y-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="THbM5ONuqLWvobYrhW5Y-15" value="执行aop" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
