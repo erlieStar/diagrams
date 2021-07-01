@@ -1,1 +1,22 @@
-<mxfile host="app.diagrams.net" modified="2021-07-01T01:35:47.415Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" version="14.8.2" etag="BeFf_r6GibAkqcD9nhGt" type="github"><diagram id="bT9aFfCEf4Ez3dsrRJgD">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-07-01T05:44:00.399Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="JidPBEbQ0QFaQU2nAdLt" version="14.8.2" type="github">
+  <diagram id="bT9aFfCEf4Ez3dsrRJgD" name="Page-1">
+    <mxGraphModel dx="946" dy="536" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="0Qp0odk51o-E4SQiAEyn-1" value="新对象申请" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0Qp0odk51o-E4SQiAEyn-2" value="Eden放得下？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="250" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0Qp0odk51o-E4SQiAEyn-4" value="Servivor&lt;br&gt;是否放得下？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="250" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0Qp0odk51o-E4SQiAEyn-5" value="放置在S0/S1区" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
