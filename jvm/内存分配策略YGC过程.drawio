@@ -1,1 +1,25 @@
-<mxfile host="app.diagrams.net" modified="2021-07-23T08:38:26.092Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" version="14.9.1" etag="fRY2eSpdWSxZqu9HmRib" type="github"><diagram id="f8kKnvuMQM2X8OM3LZuz">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-07-23T08:53:40.835Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="t5joKg2R3jx_XxStiRct" version="14.9.1" type="github">
+  <diagram id="f8kKnvuMQM2X8OM3LZuz" name="Page-1">
+    <mxGraphModel dx="946" dy="536" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="R2dKKN8My9Zuvh4SsiUZ-1" value="开始YGC" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="210" y="90" width="86" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="R2dKKN8My9Zuvh4SsiUZ-2" value="老年代可用空间大于新生代大小" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="162" y="160" width="182" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="R2dKKN8My9Zuvh4SsiUZ-3" value="触发YGC" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="210" y="260" width="86" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="R2dKKN8My9Zuvh4SsiUZ-4" value="老年代可用空间是否大于历次晋升到老年代对象的平均大小" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="380" y="160" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="R2dKKN8My9Zuvh4SsiUZ-6" value="触发YGC" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="650" y="170" width="86" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
