@@ -1,1 +1,36 @@
-<mxfile host="app.diagrams.net" modified="2021-09-26T06:26:06.733Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" version="15.3.2" etag="yGOxIfXHuhAJs78DAPLl" type="github"><diagram id="CF8ccrdjOVSS8Th75uJi">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-09-26T06:44:36.570Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="rcB09xietXoEpjjvU0_2" version="15.3.2" type="github">
+  <diagram id="CF8ccrdjOVSS8Th75uJi" name="Page-1">
+    <mxGraphModel dx="946" dy="536" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="RG-NlLSITb6_vAmHtObb-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RG-NlLSITb6_vAmHtObb-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="325" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RG-NlLSITb6_vAmHtObb-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="RG-NlLSITb6_vAmHtObb-1" target="RG-NlLSITb6_vAmHtObb-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RG-NlLSITb6_vAmHtObb-1" value="Bean实例化前阶段" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="140" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="RG-NlLSITb6_vAmHtObb-3" value="InstantiationAwareBeanPostProcessor#postProcessBeforeInstantiation&lt;br&gt;如果用户自定义了TargetSource，则从TargetSource获取代理对象，一般很少自定义&lt;br&gt;所以这个分支的流程就不分析了" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="140" width="480" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="RG-NlLSITb6_vAmHtObb-5" value="一般情况下都是return null" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="339" y="230" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="RG-NlLSITb6_vAmHtObb-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="RG-NlLSITb6_vAmHtObb-9" target="RG-NlLSITb6_vAmHtObb-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RG-NlLSITb6_vAmHtObb-9" value="Bean初始化后阶段" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="270" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="RG-NlLSITb6_vAmHtObb-11" value="BeanPostProcessor#postProcessAfterInitialization&lt;br&gt;生成代理对象" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="270" width="480" height="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
