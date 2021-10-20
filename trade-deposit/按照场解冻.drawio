@@ -1,1 +1,81 @@
-<mxfile host="app.diagrams.net" modified="2021-10-20T09:31:33.474Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" version="15.5.6" etag="nsPWYpdxsEHYUMewfaNg" type="github"><diagram id="gBsn3VXn6Y7QZO9ZDrMK">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-10-20T10:16:10.448Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="BW2IXDy5M68L1LXGvMqG" version="15.5.6" type="github">
+  <diagram id="gBsn3VXn6Y7QZO9ZDrMK" name="Page-1">
+    <mxGraphModel dx="946" dy="1705" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="9rnFfSIc-z7obeFBq_dU-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="9rnFfSIc-z7obeFBq_dU-1" target="9rnFfSIc-z7obeFBq_dU-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9rnFfSIc-z7obeFBq_dU-1" value="场次解冻" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9rnFfSIc-z7obeFBq_dU-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="9rnFfSIc-z7obeFBq_dU-2" target="9rnFfSIc-z7obeFBq_dU-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9rnFfSIc-z7obeFBq_dU-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9rnFfSIc-z7obeFBq_dU-2" target="9rnFfSIc-z7obeFBq_dU-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9rnFfSIc-z7obeFBq_dU-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="9rnFfSIc-z7obeFBq_dU-2" target="9rnFfSIc-z7obeFBq_dU-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9rnFfSIc-z7obeFBq_dU-2" value="查询是否有冻结记录&lt;br&gt;查的是t_deposit_action_freeze表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="110" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9rnFfSIc-z7obeFBq_dU-4" value="返回无冻结记录" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="520" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9rnFfSIc-z7obeFBq_dU-6" value="如何确定有冻结记录？&lt;br&gt;&lt;div&gt;c_member_code&lt;/div&gt;&lt;div&gt;c_target_type&lt;/div&gt;&lt;div&gt;c_target_code&lt;/div&gt;&lt;div&gt;c_operation_type&lt;/div&gt;&lt;div&gt;c_relation_id is null&lt;/div&gt;&lt;div&gt;根据这5个字段从t_deposit_action_freeze表中查&lt;/div&gt;" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;" vertex="1" parent="1">
+          <mxGeometry x="252.5" y="-140" width="195" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="9rnFfSIc-z7obeFBq_dU-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="9rnFfSIc-z7obeFBq_dU-7" target="9rnFfSIc-z7obeFBq_dU-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9rnFfSIc-z7obeFBq_dU-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9rnFfSIc-z7obeFBq_dU-7" target="9rnFfSIc-z7obeFBq_dU-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9rnFfSIc-z7obeFBq_dU-7" value="冻结明细是否为空&lt;br&gt;（应该永远不会为空）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="300" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9rnFfSIc-z7obeFBq_dU-8" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="465" y="100" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="9rnFfSIc-z7obeFBq_dU-10" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="355" y="180" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="9rnFfSIc-z7obeFBq_dU-11" value="返回无冻结记录" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="520" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9rnFfSIc-z7obeFBq_dU-13" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="475" y="220" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="9rnFfSIc-z7obeFBq_dU-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9rnFfSIc-z7obeFBq_dU-15" target="9rnFfSIc-z7obeFBq_dU-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9rnFfSIc-z7obeFBq_dU-15" value="根据c_target_code，c_target_type，&lt;br&gt;c_member_code从t_deposit_freeze_summary_detail表中获取冻结明细" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="210" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9rnFfSIc-z7obeFBq_dU-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9rnFfSIc-z7obeFBq_dU-20" target="9rnFfSIc-z7obeFBq_dU-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="490" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9rnFfSIc-z7obeFBq_dU-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9rnFfSIc-z7obeFBq_dU-20" target="9rnFfSIc-z7obeFBq_dU-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9rnFfSIc-z7obeFBq_dU-20" value="是否只有一条冻结明细了" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="420" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9rnFfSIc-z7obeFBq_dU-22" value="删除查找出来的一条冻结明细" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="670" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9rnFfSIc-z7obeFBq_dU-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9rnFfSIc-z7obeFBq_dU-24" target="9rnFfSIc-z7obeFBq_dU-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9rnFfSIc-z7obeFBq_dU-24" value="解冻t_deposit_action_freeze表中的记录&lt;br&gt;更改账户冻结金额和可用余额" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="465" y="520" width="240" height="55" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
