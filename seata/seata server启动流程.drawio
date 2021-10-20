@@ -1,1 +1,58 @@
-<mxfile host="app.diagrams.net" modified="2021-10-20T11:23:49.427Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" version="15.5.6" etag="bjPPQGljowk1zwULsskS" type="github"><diagram id="KlCVe-mJn3NvVYKLNa_I">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-10-20T11:40:50.173Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="eBz2GwGOEI4De4nZzWBs" version="15.5.6" type="github">
+  <diagram id="KlCVe-mJn3NvVYKLNa_I" name="Page-1">
+    <mxGraphModel dx="946" dy="537" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="CkDsEo2cQbG5VA-gBr5y-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CkDsEo2cQbG5VA-gBr5y-1" target="CkDsEo2cQbG5VA-gBr5y-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CkDsEo2cQbG5VA-gBr5y-1" value="&lt;pre&gt;解析启动和配置文件&lt;/pre&gt;&lt;pre&gt;中的各种参数&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="130" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CkDsEo2cQbG5VA-gBr5y-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CkDsEo2cQbG5VA-gBr5y-3" target="CkDsEo2cQbG5VA-gBr5y-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CkDsEo2cQbG5VA-gBr5y-3" value="初始化id生成器&lt;br&gt;用来生成事务id" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="230" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CkDsEo2cQbG5VA-gBr5y-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CkDsEo2cQbG5VA-gBr5y-4" target="CkDsEo2cQbG5VA-gBr5y-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CkDsEo2cQbG5VA-gBr5y-4" value="设置存储模式&lt;br&gt;用来负责事务日志&lt;br&gt;的持久化存储" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="340" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CkDsEo2cQbG5VA-gBr5y-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CkDsEo2cQbG5VA-gBr5y-5" target="CkDsEo2cQbG5VA-gBr5y-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CkDsEo2cQbG5VA-gBr5y-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CkDsEo2cQbG5VA-gBr5y-5" target="CkDsEo2cQbG5VA-gBr5y-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CkDsEo2cQbG5VA-gBr5y-5" value="创建事务协调器&lt;br&gt;并初始化" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="440" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CkDsEo2cQbG5VA-gBr5y-6" value="启动nettyRemotingServer&lt;br&gt;负责与TM RM进行通信" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="550" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CkDsEo2cQbG5VA-gBr5y-11" value="开启4个定时任务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="440" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CkDsEo2cQbG5VA-gBr5y-13" value="&lt;pre&gt;retryRollbacking&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="280" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CkDsEo2cQbG5VA-gBr5y-14" value="&lt;pre&gt;retryCommitting&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="360" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CkDsEo2cQbG5VA-gBr5y-15" value="&lt;pre&gt;asyncCommitting&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="440" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CkDsEo2cQbG5VA-gBr5y-16" value="&lt;pre&gt;timeoutCheck&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="520" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CkDsEo2cQbG5VA-gBr5y-18" value="&lt;pre&gt;&lt;pre&gt;undoLogDelete&lt;/pre&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="600" width="150" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
