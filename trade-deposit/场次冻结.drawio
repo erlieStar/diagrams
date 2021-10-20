@@ -1,1 +1,46 @@
-<mxfile host="app.diagrams.net" modified="2021-10-20T07:17:16.505Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" version="15.5.6" etag="BPBDlooG4Ab0tg23njsT" type="github"><diagram id="LxGNDucoQ7OBtoosY6Iz">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-10-20T08:27:42.824Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="jiOy5B6mCOkpmMCn81Jb" version="15.5.6" type="github">
+  <diagram id="LxGNDucoQ7OBtoosY6Iz" name="Page-1">
+    <mxGraphModel dx="946" dy="536" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ewu0TTZIsPRgjjUrau2w-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ewu0TTZIsPRgjjUrau2w-1" target="ewu0TTZIsPRgjjUrau2w-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ewu0TTZIsPRgjjUrau2w-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ewu0TTZIsPRgjjUrau2w-1" target="ewu0TTZIsPRgjjUrau2w-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ewu0TTZIsPRgjjUrau2w-1" value="场次冻结" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ewu0TTZIsPRgjjUrau2w-2" value="DepositActionFreezeService#freeze" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="330" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ewu0TTZIsPRgjjUrau2w-3" value="DepositActionFreezeService#check&lt;br&gt;主要校验保证金总额和余额是否足够" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="120" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ewu0TTZIsPRgjjUrau2w-6" value="车辆在店铺或场已经冻结，直接返回" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="220" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ewu0TTZIsPRgjjUrau2w-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ewu0TTZIsPRgjjUrau2w-7" target="ewu0TTZIsPRgjjUrau2w-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ewu0TTZIsPRgjjUrau2w-11" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ewu0TTZIsPRgjjUrau2w-7" target="ewu0TTZIsPRgjjUrau2w-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ewu0TTZIsPRgjjUrau2w-7" value="店铺冻结金额是否发生变化" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="330" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ewu0TTZIsPRgjjUrau2w-8" value="店铺冻结金额是否发生变化" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="820" y="430" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ewu0TTZIsPRgjjUrau2w-9" value="店铺冻结金额是否发生变化" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="430" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ewu0TTZIsPRgjjUrau2w-12" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="660" y="400" width="30" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
