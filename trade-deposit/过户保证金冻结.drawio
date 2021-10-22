@@ -1,83 +1,184 @@
-<mxfile host="app.diagrams.net" modified="2021-10-21T08:49:57.464Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="PaiEf4nHs6dkx53xXBXq" version="15.5.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-22T02:23:09.402Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="f0hCoxnBR8MZhQViqFFC" version="15.5.8" type="github">
   <diagram id="DOd0cHCl5EjLGc40jwcZ" name="Page-1">
-    <mxGraphModel dx="1426" dy="771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2253" dy="771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="nLB4VukMpMYSrF9otfOi-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="nLB4VukMpMYSrF9otfOi-1" target="nLB4VukMpMYSrF9otfOi-2">
+        <mxCell id="nLB4VukMpMYSrF9otfOi-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="nLB4VukMpMYSrF9otfOi-1" target="nLB4VukMpMYSrF9otfOi-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="nLB4VukMpMYSrF9otfOi-1" value="过户保证金冻结" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="nLB4VukMpMYSrF9otfOi-1" value="过户保证金冻结" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="60" y="220" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="nLB4VukMpMYSrF9otfOi-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="nLB4VukMpMYSrF9otfOi-2" target="nLB4VukMpMYSrF9otfOi-3">
+        <mxCell id="nLB4VukMpMYSrF9otfOi-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="nLB4VukMpMYSrF9otfOi-2" target="nLB4VukMpMYSrF9otfOi-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="nLB4VukMpMYSrF9otfOi-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nLB4VukMpMYSrF9otfOi-2" target="nLB4VukMpMYSrF9otfOi-6">
+        <mxCell id="nLB4VukMpMYSrF9otfOi-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="nLB4VukMpMYSrF9otfOi-2" target="nLB4VukMpMYSrF9otfOi-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="nLB4VukMpMYSrF9otfOi-2" value="冻结金额是否为0" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="nLB4VukMpMYSrF9otfOi-2" value="冻结金额是否为0" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="250" y="220" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="nLB4VukMpMYSrF9otfOi-3" value="冻结成功" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxCell id="nLB4VukMpMYSrF9otfOi-3" value="冻结成功" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="450" y="220" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="nLB4VukMpMYSrF9otfOi-5" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="nLB4VukMpMYSrF9otfOi-5" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="395" y="220" width="30" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="nLB4VukMpMYSrF9otfOi-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="nLB4VukMpMYSrF9otfOi-6" target="nLB4VukMpMYSrF9otfOi-8">
+        <mxCell id="nLB4VukMpMYSrF9otfOi-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="nLB4VukMpMYSrF9otfOi-6" target="nLB4VukMpMYSrF9otfOi-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="nLB4VukMpMYSrF9otfOi-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nLB4VukMpMYSrF9otfOi-6" target="nLB4VukMpMYSrF9otfOi-11">
+        <mxCell id="nLB4VukMpMYSrF9otfOi-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="nLB4VukMpMYSrF9otfOi-6" target="nLB4VukMpMYSrF9otfOi-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="nLB4VukMpMYSrF9otfOi-6" value="查询是否有冻结记录" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="V5nXxqE8g_hI0UzCT352-38" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1.007;entryY=0.525;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" edge="1" parent="1" source="nLB4VukMpMYSrF9otfOi-6" target="V5nXxqE8g_hI0UzCT352-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nLB4VukMpMYSrF9otfOi-6" value="查询是否有冻结记录&lt;br&gt;并且是单车冻结" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="250" y="320" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="nLB4VukMpMYSrF9otfOi-8" value="用户已经冻结" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxCell id="nLB4VukMpMYSrF9otfOi-8" value="用户已经冻结" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="450" y="320" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="nLB4VukMpMYSrF9otfOi-10" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="nLB4VukMpMYSrF9otfOi-10" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="395" y="320" width="30" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="nLB4VukMpMYSrF9otfOi-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="nLB4VukMpMYSrF9otfOi-11" target="nLB4VukMpMYSrF9otfOi-12">
+        <mxCell id="nLB4VukMpMYSrF9otfOi-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="nLB4VukMpMYSrF9otfOi-11" target="nLB4VukMpMYSrF9otfOi-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="nLB4VukMpMYSrF9otfOi-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="nLB4VukMpMYSrF9otfOi-11" target="nLB4VukMpMYSrF9otfOi-13">
+        <mxCell id="nLB4VukMpMYSrF9otfOi-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="nLB4VukMpMYSrF9otfOi-11" target="nLB4VukMpMYSrF9otfOi-13" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="nLB4VukMpMYSrF9otfOi-11" value="是否是拍品冻结" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="nLB4VukMpMYSrF9otfOi-11" value="是否是拍品冻结" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="250" y="420" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="nLB4VukMpMYSrF9otfOi-12" value="是否是拍品冻结" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="V5nXxqE8g_hI0UzCT352-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nLB4VukMpMYSrF9otfOi-12" target="V5nXxqE8g_hI0UzCT352-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V5nXxqE8g_hI0UzCT352-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="nLB4VukMpMYSrF9otfOi-12" target="V5nXxqE8g_hI0UzCT352-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V5nXxqE8g_hI0UzCT352-36" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" edge="1" parent="1" source="nLB4VukMpMYSrF9otfOi-12" target="V5nXxqE8g_hI0UzCT352-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nLB4VukMpMYSrF9otfOi-12" value="车辆是否已冻结" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="580" y="420" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="nLB4VukMpMYSrF9otfOi-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="nLB4VukMpMYSrF9otfOi-13" target="nLB4VukMpMYSrF9otfOi-14">
+        <mxCell id="nLB4VukMpMYSrF9otfOi-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="nLB4VukMpMYSrF9otfOi-13" target="nLB4VukMpMYSrF9otfOi-14" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="nLB4VukMpMYSrF9otfOi-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="nLB4VukMpMYSrF9otfOi-13" target="nLB4VukMpMYSrF9otfOi-16">
+        <mxCell id="nLB4VukMpMYSrF9otfOi-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="nLB4VukMpMYSrF9otfOi-13" target="nLB4VukMpMYSrF9otfOi-16" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="nLB4VukMpMYSrF9otfOi-13" value="冻结金额 &amp;gt; 账户余额" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="nLB4VukMpMYSrF9otfOi-13" value="冻结金额 &amp;gt; 账户余额" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="250" y="530" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="nLB4VukMpMYSrF9otfOi-14" value="余额不足" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxCell id="nLB4VukMpMYSrF9otfOi-14" value="余额不足" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="70" y="530" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="nLB4VukMpMYSrF9otfOi-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="nLB4VukMpMYSrF9otfOi-16" target="nLB4VukMpMYSrF9otfOi-17">
+        <mxCell id="nLB4VukMpMYSrF9otfOi-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="nLB4VukMpMYSrF9otfOi-16" target="nLB4VukMpMYSrF9otfOi-17" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="nLB4VukMpMYSrF9otfOi-16" value="更新账户的余额&lt;br&gt;和可用金额" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="nLB4VukMpMYSrF9otfOi-16" value="更新账户的余额&lt;br&gt;和可用金额" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="250" y="630" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="nLB4VukMpMYSrF9otfOi-17" value="往t_deposit_trans_freeze表中插入一条冻结记录" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="nLB4VukMpMYSrF9otfOi-17" value="往t_deposit_trans_freeze表中插入一条冻结记录" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="240" y="730" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="nLB4VukMpMYSrF9otfOi-20" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="nLB4VukMpMYSrF9otfOi-20" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="315" y="490" width="30" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="nLB4VukMpMYSrF9otfOi-21" value="否，即店铺冻结" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="nLB4VukMpMYSrF9otfOi-21" value="否，即店铺冻结" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="425" y="420" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="V5nXxqE8g_hI0UzCT352-1" value="冻结成功" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="820" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="V5nXxqE8g_hI0UzCT352-3" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="715" y="410" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="V5nXxqE8g_hI0UzCT352-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="V5nXxqE8g_hI0UzCT352-4" target="V5nXxqE8g_hI0UzCT352-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V5nXxqE8g_hI0UzCT352-31" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="V5nXxqE8g_hI0UzCT352-4" target="V5nXxqE8g_hI0UzCT352-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V5nXxqE8g_hI0UzCT352-32" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="V5nXxqE8g_hI0UzCT352-4" target="V5nXxqE8g_hI0UzCT352-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V5nXxqE8g_hI0UzCT352-4" value="选出此次要冻结的账户" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="530" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="V5nXxqE8g_hI0UzCT352-7" value="往t_deposit_freeze_summary_detail表中插入冻结详情记录" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="1080" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="V5nXxqE8g_hI0UzCT352-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="V5nXxqE8g_hI0UzCT352-8" target="V5nXxqE8g_hI0UzCT352-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V5nXxqE8g_hI0UzCT352-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="V5nXxqE8g_hI0UzCT352-8" target="V5nXxqE8g_hI0UzCT352-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V5nXxqE8g_hI0UzCT352-8" value="冻结详情为空&lt;br&gt;或者冻结金额发生变化" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="830" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="V5nXxqE8g_hI0UzCT352-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="V5nXxqE8g_hI0UzCT352-9" target="V5nXxqE8g_hI0UzCT352-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V5nXxqE8g_hI0UzCT352-9" value="往t_deposit_trans_freeze表中插入一条冻结记录" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="950" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="V5nXxqE8g_hI0UzCT352-11" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="645" y="910" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="V5nXxqE8g_hI0UzCT352-14" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="765" y="970" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="V5nXxqE8g_hI0UzCT352-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="V5nXxqE8g_hI0UzCT352-15" target="V5nXxqE8g_hI0UzCT352-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V5nXxqE8g_hI0UzCT352-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="V5nXxqE8g_hI0UzCT352-15" target="V5nXxqE8g_hI0UzCT352-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="760" y="680" />
+              <mxPoint x="760" y="845" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V5nXxqE8g_hI0UzCT352-15" value="店铺配置的冻结金额&lt;br&gt;是否发生变化" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="650" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="V5nXxqE8g_hI0UzCT352-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="V5nXxqE8g_hI0UzCT352-16" target="V5nXxqE8g_hI0UzCT352-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V5nXxqE8g_hI0UzCT352-16" value="将t_deposit_trans_freez表中的冻结记录解冻" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="740" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="V5nXxqE8g_hI0UzCT352-23" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="645" y="720" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="V5nXxqE8g_hI0UzCT352-24" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="765" y="740" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="V5nXxqE8g_hI0UzCT352-27" value="1. 上次是平台，这次平台也够，接着用平台&lt;br&gt;2. 上次是平台，这次平台不够，如果店铺够，用店铺，否则报账户余额不足&lt;br&gt;3. 上次是店铺，这次店铺也够，接着用店铺&lt;br&gt;4. 上次是店铺，这次店铺不够，如果平台够，用平台，否则报账户余额不足" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="950" y="470" width="470" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="V5nXxqE8g_hI0UzCT352-28" value="优先用店铺，店铺不够用平台，都不够，报账户余额不足" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="950" y="600" width="470" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="V5nXxqE8g_hI0UzCT352-29" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="645" y="490" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="V5nXxqE8g_hI0UzCT352-33" value="店铺已经有冻结记录" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="750" y="490" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="V5nXxqE8g_hI0UzCT352-34" value="店铺没有冻结记录" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="755" y="620" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="V5nXxqE8g_hI0UzCT352-35" value="根据c_target_code，&lt;span&gt;c_target_type&lt;/span&gt;&lt;br&gt;&lt;pre&gt;从t_deposit_freeze_summary_detail&lt;/pre&gt;&lt;pre&gt;查询记录&lt;/pre&gt;" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;" vertex="1" parent="1">
+          <mxGeometry x="630" y="210" width="285" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="V5nXxqE8g_hI0UzCT352-37" value="根据c_target_code，&lt;span&gt;c_target_type&lt;br&gt;&lt;/span&gt;&lt;pre&gt;c_member_code,c_order_id&lt;/pre&gt;&lt;pre&gt;&lt;pre&gt;c_relation_id is null&lt;/pre&gt;&lt;/pre&gt;&lt;pre&gt;从t_deposit_trans_freeze查询记录&lt;/pre&gt;" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;" vertex="1" parent="1">
+          <mxGeometry x="-140" y="330" width="285" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
