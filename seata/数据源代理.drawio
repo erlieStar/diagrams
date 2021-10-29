@@ -1,1 +1,28 @@
-<mxfile host="app.diagrams.net" modified="2021-10-29T02:52:02.479Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" version="15.5.9" etag="2BfU07bGa70CUFzCVwsU" type="github"><diagram id="u3Zg2BsVUNNMz6V2RDVz">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-10-29T03:38:55.306Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="KosI7pGUpG6dUL5m7RHF" version="15.5.9" type="github">
+  <diagram id="u3Zg2BsVUNNMz6V2RDVz" name="Page-1">
+    <mxGraphModel dx="946" dy="536" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="diVe1SUPso8jmXrMDj8z-1" value="&lt;pre&gt;DataSourceProxy&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="410" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="diVe1SUPso8jmXrMDj8z-3" value="&lt;pre&gt;&lt;pre&gt;ConnectionProxy&lt;/pre&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="510" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="diVe1SUPso8jmXrMDj8z-4" value="&lt;pre&gt;&lt;pre&gt;&lt;pre&gt;PreparedStatementProxy&lt;/pre&gt;&lt;pre&gt;&lt;pre&gt;StatementProxy&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="620" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="diVe1SUPso8jmXrMDj8z-5" value="&lt;pre&gt;1. 获取resourceId(即连接数据库的url)&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="410" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="diVe1SUPso8jmXrMDj8z-6" value="&lt;pre&gt;1. 分支事务注册&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="520" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="diVe1SUPso8jmXrMDj8z-7" value="&lt;pre&gt;&lt;pre&gt;&lt;pre&gt;1. 生成前置镜像，执行业务sql，生成后置镜像，将前置镜像和后置镜像保存在undolog中&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="620" width="590" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
