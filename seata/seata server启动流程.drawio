@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-22T06:25:54.838Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="SPdu3CSpJCLFT03GqGic" version="15.5.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-31T05:50:01.228Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="dJ1DE1AiuDN90pqhAfPQ" version="15.6.2" type="github">
   <diagram id="KlCVe-mJn3NvVYKLNa_I" name="Page-1">
     <mxGraphModel dx="946" dy="536" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -13,13 +13,13 @@
         <mxCell id="CkDsEo2cQbG5VA-gBr5y-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" source="CkDsEo2cQbG5VA-gBr5y-3" target="CkDsEo2cQbG5VA-gBr5y-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="CkDsEo2cQbG5VA-gBr5y-3" value="初始化id生成器&lt;br&gt;用来生成事务id" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+        <mxCell id="CkDsEo2cQbG5VA-gBr5y-3" value="初始化id生成器&lt;br&gt;用来生成全局事务id&lt;br&gt;和分支事务id" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="110" y="230" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="CkDsEo2cQbG5VA-gBr5y-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" source="CkDsEo2cQbG5VA-gBr5y-4" target="CkDsEo2cQbG5VA-gBr5y-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="CkDsEo2cQbG5VA-gBr5y-4" value="设置存储模式&lt;br&gt;用来负责事务日志&lt;br&gt;的持久化存储" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+        <mxCell id="CkDsEo2cQbG5VA-gBr5y-4" value="设置存储模式&lt;br&gt;用来持久化存储&lt;br&gt;全局事务和分支事务的状态" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="110" y="340" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="CkDsEo2cQbG5VA-gBr5y-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" source="CkDsEo2cQbG5VA-gBr5y-5" target="CkDsEo2cQbG5VA-gBr5y-6" edge="1">
