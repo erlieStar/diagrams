@@ -1,23 +1,38 @@
-<mxfile host="app.diagrams.net" modified="2021-11-09T08:21:43.812Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="NqLpBFvvGiOmtObR51Eu" version="15.7.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-09T08:50:43.620Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="fml4lTJL7VtuHCqrtsYp" version="15.7.0" type="github">
   <diagram id="2E-LtHal8WjOzLzMyE7q" name="Page-1">
     <mxGraphModel dx="946" dy="536" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Fik6nefxO_mn1XnIjBR2-26" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="860" y="310" width="200" height="100" as="geometry" />
+        </mxCell>
         <mxCell id="Fik6nefxO_mn1XnIjBR2-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Fik6nefxO_mn1XnIjBR2-1" target="Fik6nefxO_mn1XnIjBR2-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Fik6nefxO_mn1XnIjBR2-1" value="TransactionMQProducer&lt;br&gt;#sendMessageInTransaction" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Fik6nefxO_mn1XnIjBR2-1" value="TransactionMQProducer&lt;br&gt;#sendMessageInTransaction" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="110" y="100" width="210" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Fik6nefxO_mn1XnIjBR2-2" value="DefaultMQProducerImpl&lt;br&gt;#sendMessageInTransaction" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Fik6nefxO_mn1XnIjBR2-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Fik6nefxO_mn1XnIjBR2-2" target="Fik6nefxO_mn1XnIjBR2-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fik6nefxO_mn1XnIjBR2-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Fik6nefxO_mn1XnIjBR2-2" target="Fik6nefxO_mn1XnIjBR2-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fik6nefxO_mn1XnIjBR2-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Fik6nefxO_mn1XnIjBR2-2" target="Fik6nefxO_mn1XnIjBR2-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fik6nefxO_mn1XnIjBR2-2" value="DefaultMQProducerImpl&lt;br&gt;#sendMessageInTransaction" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="110" y="190" width="210" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Fik6nefxO_mn1XnIjBR2-3" value="发送prepare消息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="380" y="130" width="120" height="60" as="geometry" />
+        <mxCell id="Fik6nefxO_mn1XnIjBR2-3" value="发送prepare消息" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="380" y="112" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Fik6nefxO_mn1XnIjBR2-4" value="发送成功后执行&lt;br&gt;本地事务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="380" y="200" width="120" height="60" as="geometry" />
+          <mxGeometry x="380" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Fik6nefxO_mn1XnIjBR2-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Fik6nefxO_mn1XnIjBR2-5" target="Fik6nefxO_mn1XnIjBR2-15">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Fik6nefxO_mn1XnIjBR2-5" value="发送结束事务的请求" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="380" y="270" width="120" height="60" as="geometry" />
@@ -28,8 +43,8 @@
         <mxCell id="Fik6nefxO_mn1XnIjBR2-7" value="&lt;pre&gt;SendMessageProcessor&lt;/pre&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="600" y="70" width="160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Fik6nefxO_mn1XnIjBR2-8" value="prepare消息存储" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="620" y="120" width="120" height="40" as="geometry" />
+        <mxCell id="Fik6nefxO_mn1XnIjBR2-8" value="prepare消息存储" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="620" y="122" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Fik6nefxO_mn1XnIjBR2-9" value="普通消息存储" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="620" y="170" width="120" height="40" as="geometry" />
@@ -37,11 +52,14 @@
         <mxCell id="Fik6nefxO_mn1XnIjBR2-10" value="&lt;pre&gt;TransactionalMessageServiceImpl&lt;/pre&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="820" y="70" width="240" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="Fik6nefxO_mn1XnIjBR2-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Fik6nefxO_mn1XnIjBR2-11" target="Fik6nefxO_mn1XnIjBR2-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Fik6nefxO_mn1XnIjBR2-11" value="" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=20;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="830" y="110" width="200" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="Fik6nefxO_mn1XnIjBR2-12" value="&lt;pre&gt;prepareMessage&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="870" y="120" width="120" height="40" as="geometry" />
+        <mxCell id="Fik6nefxO_mn1XnIjBR2-12" value="&lt;pre&gt;prepareMessage&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="870" y="122" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Fik6nefxO_mn1XnIjBR2-13" value="&lt;pre&gt;commitMessage&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="870" y="170" width="120" height="40" as="geometry" />
@@ -58,11 +76,46 @@
         <mxCell id="Fik6nefxO_mn1XnIjBR2-17" value="&lt;pre&gt;TRANSACTION_NOT_TYPE&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="587.5" y="310" width="185" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="Fik6nefxO_mn1XnIjBR2-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Fik6nefxO_mn1XnIjBR2-19" target="Fik6nefxO_mn1XnIjBR2-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Fik6nefxO_mn1XnIjBR2-19" value="&lt;pre&gt;&lt;pre&gt;TRANSACTION_COMMIT_TYPE&lt;/pre&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="587.5" y="360" width="185" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="Fik6nefxO_mn1XnIjBR2-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Fik6nefxO_mn1XnIjBR2-20" target="Fik6nefxO_mn1XnIjBR2-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="840" y="430" />
+              <mxPoint x="840" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="Fik6nefxO_mn1XnIjBR2-20" value="&lt;pre&gt;&lt;pre&gt;&lt;pre&gt;TRANSACTION_ROLLBACK_TYPE&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="587.5" y="410" width="185" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Fik6nefxO_mn1XnIjBR2-24" value="&lt;pre&gt;DefaultMessageStore&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="885" y="350" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Fik6nefxO_mn1XnIjBR2-31" value="&lt;pre&gt;TransactionalMessageBridge&lt;/pre&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="860" y="310" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Fik6nefxO_mn1XnIjBR2-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Fik6nefxO_mn1XnIjBR2-3" target="Fik6nefxO_mn1XnIjBR2-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fik6nefxO_mn1XnIjBR2-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Fik6nefxO_mn1XnIjBR2-8" target="Fik6nefxO_mn1XnIjBR2-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fik6nefxO_mn1XnIjBR2-41" value="" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=20;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="550" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Fik6nefxO_mn1XnIjBR2-42" value="&lt;pre&gt;TransactionalMessageCheckService&lt;/pre&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="555" y="500" width="250" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Fik6nefxO_mn1XnIjBR2-43" value="check" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="645" y="560" width="70" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Fik6nefxO_mn1XnIjBR2-46" value="&lt;span&gt;ClientRemotingProcessor&lt;/span&gt;&lt;br&gt;&lt;span&gt;#checkTransactionState&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="110" y="510" width="210" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
