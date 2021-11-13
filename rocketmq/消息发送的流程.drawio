@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-13T09:23:11.127Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="aPWJbLL_0v3T3GpXioQp" version="15.7.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-13T09:30:31.439Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="Bn_sp-plumBnADMRLH1r" version="15.7.3" type="github">
   <diagram id="beEiFu7W-FBV3QKFxX4Z" name="Page-1">
     <mxGraphModel dx="1426" dy="771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -76,6 +76,9 @@
         <mxCell id="PUsVI0H3Nka6SFm6uu8r-52" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="PUsVI0H3Nka6SFm6uu8r-20" target="PUsVI0H3Nka6SFm6uu8r-51">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="PUsVI0H3Nka6SFm6uu8r-55" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.479;entryY=0.007;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="PUsVI0H3Nka6SFm6uu8r-20" target="PUsVI0H3Nka6SFm6uu8r-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="PUsVI0H3Nka6SFm6uu8r-20" value="MQClientAPIImpl#processSendResponse&lt;br&gt;处理请求结果，并返回" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="360" y="1820" width="260" height="52.5" as="geometry" />
         </mxCell>
@@ -110,6 +113,9 @@
         </mxCell>
         <mxCell id="PUsVI0H3Nka6SFm6uu8r-51" value="回调SendCallback#onSuccess&lt;br&gt;传入SendResult" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="670" y="1820" width="260" height="52.5" as="geometry" />
+        </mxCell>
+        <mxCell id="PUsVI0H3Nka6SFm6uu8r-54" value="构建SendResult，主要包含如下内容&lt;br&gt;1. 发送状态&lt;br&gt;1. uniqKey (客户端生成的对消息的唯一标识)&lt;br&gt;2. messageId （服务端生成的对消息的唯一标识）&lt;br&gt;3. 发送到的队列信息（topic brokerName等信息）&lt;br&gt;4. 消息在队列中的偏移量" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="352" y="1910" width="288" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
