@@ -1,29 +1,107 @@
-<mxfile host="app.diagrams.net" modified="2021-11-13T09:32:11.484Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="O2Yw0VxufOIY2TinqFAY" version="15.7.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-13T10:02:03.618Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="50W4UY2e6bqJ7_i5P4r5" version="15.7.3" type="github">
   <diagram id="beEiFu7W-FBV3QKFxX4Z" name="Page-1">
-    <mxGraphModel dx="1426" dy="771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="946" dy="536" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="NcVtNX8eG5FYY5GW91jy-1" value="DefaultMQProducerImpl#sendDefaultImpl&lt;br&gt;消息发送" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;fontColor=default;" parent="1" vertex="1">
-          <mxGeometry x="50" y="525" width="260" height="60" as="geometry" />
+        <mxCell id="PUsVI0H3Nka6SFm6uu8r-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="NcVtNX8eG5FYY5GW91jy-1" target="NcVtNX8eG5FYY5GW91jy-2">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NcVtNX8eG5FYY5GW91jy-2" value="验证消息" style="rounded=0;whiteSpace=wrap;html=1;fontColor=default;strokeColor=default;fillColor=default;" parent="1" vertex="1">
+        <mxCell id="PUsVI0H3Nka6SFm6uu8r-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="NcVtNX8eG5FYY5GW91jy-1" target="PUsVI0H3Nka6SFm6uu8r-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PUsVI0H3Nka6SFm6uu8r-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="NcVtNX8eG5FYY5GW91jy-1" target="NcVtNX8eG5FYY5GW91jy-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PUsVI0H3Nka6SFm6uu8r-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="NcVtNX8eG5FYY5GW91jy-1" target="PUsVI0H3Nka6SFm6uu8r-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PUsVI0H3Nka6SFm6uu8r-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="NcVtNX8eG5FYY5GW91jy-1" target="PUsVI0H3Nka6SFm6uu8r-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PUsVI0H3Nka6SFm6uu8r-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="NcVtNX8eG5FYY5GW91jy-1" target="NcVtNX8eG5FYY5GW91jy-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PUsVI0H3Nka6SFm6uu8r-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="NcVtNX8eG5FYY5GW91jy-1" target="PUsVI0H3Nka6SFm6uu8r-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PUsVI0H3Nka6SFm6uu8r-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="NcVtNX8eG5FYY5GW91jy-1" target="PUsVI0H3Nka6SFm6uu8r-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NcVtNX8eG5FYY5GW91jy-1" value="DefaultMQProducerImpl#sendDefaultImpl&lt;br&gt;消息发送" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="10" y="610" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PUsVI0H3Nka6SFm6uu8r-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="NcVtNX8eG5FYY5GW91jy-2" target="PUsVI0H3Nka6SFm6uu8r-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NcVtNX8eG5FYY5GW91jy-2" value="验证消息" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" parent="1" vertex="1">
           <mxGeometry x="360" y="295" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NcVtNX8eG5FYY5GW91jy-3" value="获取topic路由信息" style="rounded=0;whiteSpace=wrap;html=1;fontColor=default;strokeColor=default;fillColor=default;" parent="1" vertex="1">
-          <mxGeometry x="360" y="385" width="120" height="60" as="geometry" />
+        <mxCell id="PUsVI0H3Nka6SFm6uu8r-73" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="NcVtNX8eG5FYY5GW91jy-3" target="PUsVI0H3Nka6SFm6uu8r-57">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NcVtNX8eG5FYY5GW91jy-4" value="给消息设置uniqueKey" style="rounded=0;whiteSpace=wrap;html=1;fontColor=default;strokeColor=default;fillColor=default;" parent="1" vertex="1">
-          <mxGeometry x="360" y="480" width="120" height="60" as="geometry" />
+        <mxCell id="NcVtNX8eG5FYY5GW91jy-3" value="获取topic路由信息" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" parent="1" vertex="1">
+          <mxGeometry x="360" y="382.5" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="PUsVI0H3Nka6SFm6uu8r-2" value="设置相应的标志位&lt;br&gt;是否压缩&lt;br&gt;是否是半消息" style="rounded=0;whiteSpace=wrap;html=1;fontColor=default;strokeColor=default;fillColor=default;" vertex="1" parent="1">
-          <mxGeometry x="360" y="570" width="120" height="60" as="geometry" />
+        <mxCell id="PUsVI0H3Nka6SFm6uu8r-76" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="NcVtNX8eG5FYY5GW91jy-4" target="PUsVI0H3Nka6SFm6uu8r-58">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="PUsVI0H3Nka6SFm6uu8r-3" value="构建消息请求" style="rounded=0;whiteSpace=wrap;html=1;fontColor=default;strokeColor=default;fillColor=default;" vertex="1" parent="1">
-          <mxGeometry x="360" y="660" width="120" height="60" as="geometry" />
+        <mxCell id="NcVtNX8eG5FYY5GW91jy-4" value="给消息设置uniqueKey" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" parent="1" vertex="1">
+          <mxGeometry x="360" y="650" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="PUsVI0H3Nka6SFm6uu8r-4" value="发送消息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="360" y="750" width="120" height="60" as="geometry" />
+        <mxCell id="PUsVI0H3Nka6SFm6uu8r-77" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="PUsVI0H3Nka6SFm6uu8r-2" target="PUsVI0H3Nka6SFm6uu8r-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PUsVI0H3Nka6SFm6uu8r-2" value="设置相应的标志位&lt;br&gt;是否压缩&lt;br&gt;是否是半消息" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="360" y="740" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PUsVI0H3Nka6SFm6uu8r-78" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="PUsVI0H3Nka6SFm6uu8r-3" target="PUsVI0H3Nka6SFm6uu8r-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PUsVI0H3Nka6SFm6uu8r-3" value="构建消息请求" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="360" y="830" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PUsVI0H3Nka6SFm6uu8r-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="PUsVI0H3Nka6SFm6uu8r-4" target="PUsVI0H3Nka6SFm6uu8r-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PUsVI0H3Nka6SFm6uu8r-4" value="发送消息" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="360" y="920" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PUsVI0H3Nka6SFm6uu8r-56" value="1. topic不能为空，不能是系统定义的topic&lt;br&gt;2. 消息体不能为空，大小不能超过4M" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#d6b656;fillColor=#fff2cc;" vertex="1" parent="1">
+          <mxGeometry x="560" y="293" width="270" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="PUsVI0H3Nka6SFm6uu8r-57" value="从本地缓存中取，没有从nameserver中取" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#d6b656;fillColor=#fff2cc;" vertex="1" parent="1">
+          <mxGeometry x="560" y="379.5" width="270" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="PUsVI0H3Nka6SFm6uu8r-58" value="用来查找消息" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#d6b656;fillColor=#fff2cc;" vertex="1" parent="1">
+          <mxGeometry x="560" y="648" width="270" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="PUsVI0H3Nka6SFm6uu8r-59" value="根据标志位在broker端做相应的处理&lt;br&gt;压缩消息需要解压缩&lt;br&gt;半消息要单独存到一个队列中" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#d6b656;fillColor=#fff2cc;" vertex="1" parent="1">
+          <mxGeometry x="560" y="738" width="270" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="PUsVI0H3Nka6SFm6uu8r-60" value="构建RemotingCommand对象&lt;br&gt;RemotingCommand对象是对协议的封装" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#d6b656;fillColor=#fff2cc;" vertex="1" parent="1">
+          <mxGeometry x="560" y="828" width="270" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="PUsVI0H3Nka6SFm6uu8r-61" value="总共有3种发消息的方式" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#d6b656;fillColor=#fff2cc;" vertex="1" parent="1">
+          <mxGeometry x="560" y="917.5" width="270" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="PUsVI0H3Nka6SFm6uu8r-74" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="PUsVI0H3Nka6SFm6uu8r-62" target="PUsVI0H3Nka6SFm6uu8r-65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PUsVI0H3Nka6SFm6uu8r-62" value="根据轮询策略决定要将消息发送到哪个queue？" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="360" y="465" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PUsVI0H3Nka6SFm6uu8r-75" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="PUsVI0H3Nka6SFm6uu8r-63" target="PUsVI0H3Nka6SFm6uu8r-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PUsVI0H3Nka6SFm6uu8r-63" value="获取queue对应的broker的地址" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="360" y="555" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PUsVI0H3Nka6SFm6uu8r-65" value="根据需要可以决定是否启动broker规避机制" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#d6b656;fillColor=#fff2cc;" vertex="1" parent="1">
+          <mxGeometry x="560" y="463" width="270" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="PUsVI0H3Nka6SFm6uu8r-66" value="从本地缓存中取，没有从nameserver中取" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#d6b656;fillColor=#fff2cc;" vertex="1" parent="1">
+          <mxGeometry x="560" y="553" width="270" height="65" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
