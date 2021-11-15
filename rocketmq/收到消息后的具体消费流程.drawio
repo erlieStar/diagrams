@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-15T13:12:16.817Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="Qq7MdQMb52dUvU77-N6g" version="15.7.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-15T13:15:05.863Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="l9DXegBWVYG95XEWLXn8" version="15.7.3" type="github">
   <diagram id="YTU2Lxhsx-NlhrjXAhpr" name="Page-1">
     <mxGraphModel dx="946" dy="536" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -40,10 +40,13 @@
         <mxCell id="UFAUsOjedUkf1D2MYe-L-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="UFAUsOjedUkf1D2MYe-L-6" target="UFAUsOjedUkf1D2MYe-L-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="UFAUsOjedUkf1D2MYe-L-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="UFAUsOjedUkf1D2MYe-L-6" target="UFAUsOjedUkf1D2MYe-L-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="UFAUsOjedUkf1D2MYe-L-6" value="&lt;pre&gt;ConsumeMessageConcurrentlyService&lt;/pre&gt;&lt;pre&gt;#processConsumeResult&lt;/pre&gt;&lt;pre&gt;处理消费结果&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="45" y="690" width="290" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="UFAUsOjedUkf1D2MYe-L-7" value="通过OffsetStore将队列的消费进度持久化到本地&lt;br&gt;消息是否消费成功都会更新消费进度" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="UFAUsOjedUkf1D2MYe-L-7" value="将消费过的消息（不管成功与否）&lt;br&gt;从&lt;span&gt;PullResult的ProcessQueue中删除&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="430" y="790" width="260" height="60" as="geometry" />
         </mxCell>
         <mxCell id="UFAUsOjedUkf1D2MYe-L-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="UFAUsOjedUkf1D2MYe-L-9" target="UFAUsOjedUkf1D2MYe-L-11">
@@ -66,6 +69,9 @@
         </mxCell>
         <mxCell id="UFAUsOjedUkf1D2MYe-L-15" value="回调&lt;br&gt;MessageListenerConcurrently#consumeMessage&lt;br&gt;消费消息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="380" y="540" width="370" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UFAUsOjedUkf1D2MYe-L-26" value="通过OffsetStore将队列的消费进度&lt;br&gt;（不管成功与否）&lt;br&gt;持久化到本地" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="880" width="260" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
