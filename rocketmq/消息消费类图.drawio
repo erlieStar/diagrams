@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-15T05:10:16.010Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="3P2pdPiD4YPXNAxzjn0J" version="15.7.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-15T05:40:52.037Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="z8K4WQU205uaDwfUsvw9" version="15.7.3" type="github">
   <diagram id="2tU0TM2oi-BF1VvAEsz0" name="Page-1">
     <mxGraphModel dx="946" dy="536" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -84,6 +84,9 @@
         </mxCell>
         <mxCell id="yr4FHtApJgTNxW3L6D0K-29" value="阻塞队列，存放&lt;span&gt;PullRequest&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="531.25" y="120" width="175" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yr4FHtApJgTNxW3L6D0K-30" value="&lt;pre&gt;&lt;pre&gt;DefaultMQPushConsumerImpl&lt;/pre&gt;&lt;/pre&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="815" y="60" width="200" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
