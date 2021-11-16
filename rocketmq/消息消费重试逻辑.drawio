@@ -1,1 +1,58 @@
-<mxfile host="app.diagrams.net" modified="2021-11-16T12:03:54.251Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" version="15.7.4" etag="6wmWPlpLquG18fSzd_UL" type="github"><diagram id="Kwm_fEa2-pcgA2kAr1cK">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-11-16T12:58:00.944Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="QEqMTafWV6uMbUzaQSDY" version="15.7.4" type="github">
+  <diagram id="Kwm_fEa2-pcgA2kAr1cK" name="Page-1">
+    <mxGraphModel dx="1426" dy="771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ZRjqzRYn3f4sl30wHZdL-14" value="" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=20;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="1152.5" y="560" width="397.5" height="640" as="geometry" />
+        </mxCell>
+        <mxCell id="ZRjqzRYn3f4sl30wHZdL-18" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="630" width="295" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="ZRjqzRYn3f4sl30wHZdL-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZRjqzRYn3f4sl30wHZdL-6" target="ZRjqzRYn3f4sl30wHZdL-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZRjqzRYn3f4sl30wHZdL-6" value="&lt;pre&gt;ConsumeMessageConcurrentlyService&lt;/pre&gt;&lt;pre&gt;#processConsumeResult&lt;/pre&gt;&lt;pre&gt;处理消费结果&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="90" y="690" width="290" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="ZRjqzRYn3f4sl30wHZdL-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZRjqzRYn3f4sl30wHZdL-10" target="ZRjqzRYn3f4sl30wHZdL-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZRjqzRYn3f4sl30wHZdL-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="ZRjqzRYn3f4sl30wHZdL-10" target="ZRjqzRYn3f4sl30wHZdL-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZRjqzRYn3f4sl30wHZdL-10" value="不同消费模式&lt;br&gt;消费消息失败" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="414" y="715" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ZRjqzRYn3f4sl30wHZdL-11" value="&lt;pre&gt;BROADCASTING&lt;/pre&gt;&lt;pre&gt;广播消息不会重试，直接丢失&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="610" y="660" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ZRjqzRYn3f4sl30wHZdL-12" value="&lt;pre&gt;CLUSTERING&lt;/pre&gt;&lt;pre&gt;向broker发送重试消息&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="610" y="765" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ZRjqzRYn3f4sl30wHZdL-15" value="&lt;pre&gt;SendMessageProcessor&lt;/pre&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="890" y="570" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZRjqzRYn3f4sl30wHZdL-16" value="code !=&amp;nbsp;CONSUMER_SEND_MSG_BACK&lt;br&gt;普通消息处理逻辑" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1225" y="670" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZRjqzRYn3f4sl30wHZdL-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZRjqzRYn3f4sl30wHZdL-17" target="ZRjqzRYn3f4sl30wHZdL-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZRjqzRYn3f4sl30wHZdL-17" value="code =&amp;nbsp;CONSUMER_SEND_MSG_BACK&lt;br&gt;重试消息处理逻辑" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1225" y="740" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZRjqzRYn3f4sl30wHZdL-19" value="&lt;pre&gt;processRequest&lt;/pre&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1287.5" y="630" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZRjqzRYn3f4sl30wHZdL-21" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1197.5" y="850" width="295" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="ZRjqzRYn3f4sl30wHZdL-22" value="&lt;pre&gt;asyncConsumerSendMsgBack&lt;/pre&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1315" y="850" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
