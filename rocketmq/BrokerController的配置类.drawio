@@ -1,1 +1,28 @@
-<mxfile host="app.diagrams.net" modified="2021-11-20T10:04:34.314Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" version="15.8.2" etag="9nx6-eFf_R_vux3kkvPK" type="github"><diagram id="42_exwplJHpN9XJrzEDb">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-11-20T10:04:52.945Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="9lQks3uCBpHvb-2-7P9d" version="15.8.2" type="github">
+  <diagram id="42_exwplJHpN9XJrzEDb" name="Page-1">
+    <mxGraphModel dx="946" dy="536" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="xGHzo0wR4N6kQoi6Kgz_-1" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="70" y="80" width="385" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="xGHzo0wR4N6kQoi6Kgz_-2" value="&lt;pre&gt;BrokerController配置类&lt;/pre&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="242.5" y="90" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="xGHzo0wR4N6kQoi6Kgz_-3" value="&lt;pre&gt;NettyServerConfig&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="95" y="120" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xGHzo0wR4N6kQoi6Kgz_-4" value="&lt;pre&gt;&lt;pre&gt;NettyClientConfig&lt;/pre&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="275" y="120" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xGHzo0wR4N6kQoi6Kgz_-5" value="&lt;pre&gt;&lt;pre&gt;BrokerConfig&lt;/pre&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="95" y="190" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xGHzo0wR4N6kQoi6Kgz_-6" value="&lt;pre&gt;&lt;pre&gt;&lt;pre&gt;MessageStoreConfig&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="275" y="190" width="160" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
