@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-20T09:58:06.502Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="erIg-kjX1PXrXrvfEcjF" version="15.8.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-20T10:07:57.856Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="_bYSXRMlA9voHbwFduOY" version="15.8.2" type="github">
   <diagram id="sFC1RRCr9SFQazNoy_1z" name="Page-1">
     <mxGraphModel dx="946" dy="536" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -15,6 +15,33 @@
         </mxCell>
         <mxCell id="3U_JYmoVX_Mq-FX1dJBy-1" value="构建Broker控制器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="590" y="110" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3U_JYmoVX_Mq-FX1dJBy-2" value="启动messageStore&lt;br&gt;存储消息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="200" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3U_JYmoVX_Mq-FX1dJBy-3" value="启动remotingServer和&lt;span&gt;fastRemotingServer&lt;br&gt;&lt;/span&gt;用来处理客户端的请求" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="280" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3U_JYmoVX_Mq-FX1dJBy-4" value="启动fileWatchService" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="360" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3U_JYmoVX_Mq-FX1dJBy-5" value="启动brokerOuterAPI" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="450" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3U_JYmoVX_Mq-FX1dJBy-6" value="启动pullRequestHoldService&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="540" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3U_JYmoVX_Mq-FX1dJBy-7" value="启动clientHousekeepingService&lt;br&gt;&lt;span style=&quot;color: rgb(152 , 118 , 170) ; background-color: rgb(43 , 43 , 43) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 13.5pt&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="630" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3U_JYmoVX_Mq-FX1dJBy-8" value="启动filterServerManager" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="720" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3U_JYmoVX_Mq-FX1dJBy-9" value="启动brokerStatsManager" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="810" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3U_JYmoVX_Mq-FX1dJBy-10" value="启动brokerFastFailure" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="900" width="250" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
