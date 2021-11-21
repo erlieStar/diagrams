@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-11-21T07:14:13.665Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="oppX1UeIpJvm2ZcYXXDs" version="15.8.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-21T07:14:44.200Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="-moDzjE3ug27vglJJh3X" version="15.8.3" type="github">
   <diagram id="C8bcCmeBGrNI1R2GCJvH" name="Page-1">
-    <mxGraphModel dx="2253" dy="771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1426" dy="771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -42,19 +42,19 @@
         <mxCell id="OcVvFfoguZnq5OLfiX84-9" value="内核空间" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="70" y="819" width="60" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="PaZnktNb33tD9afJUmUd-1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="OcVvFfoguZnq5OLfiX84-11" target="OcVvFfoguZnq5OLfiX84-13">
+        <mxCell id="PaZnktNb33tD9afJUmUd-1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="OcVvFfoguZnq5OLfiX84-11" target="OcVvFfoguZnq5OLfiX84-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="PaZnktNb33tD9afJUmUd-4" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="OcVvFfoguZnq5OLfiX84-11" target="OcVvFfoguZnq5OLfiX84-13">
+        <mxCell id="PaZnktNb33tD9afJUmUd-4" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="OcVvFfoguZnq5OLfiX84-11" target="OcVvFfoguZnq5OLfiX84-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="OcVvFfoguZnq5OLfiX84-11" value="user buffer" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+        <mxCell id="OcVvFfoguZnq5OLfiX84-11" value="user buffer" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="345" y="572" width="150" height="45" as="geometry" />
         </mxCell>
         <mxCell id="OcVvFfoguZnq5OLfiX84-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="OcVvFfoguZnq5OLfiX84-13" target="OcVvFfoguZnq5OLfiX84-15" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="OcVvFfoguZnq5OLfiX84-13" value="page cache" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+        <mxCell id="OcVvFfoguZnq5OLfiX84-13" value="page cache" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="200" y="806.5" width="150" height="45" as="geometry" />
         </mxCell>
         <mxCell id="OcVvFfoguZnq5OLfiX84-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="OcVvFfoguZnq5OLfiX84-15" target="OcVvFfoguZnq5OLfiX84-16" edge="1">
@@ -104,9 +104,6 @@
         </mxCell>
         <mxCell id="OcVvFfoguZnq5OLfiX84-28" value="CPU复制2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="390" y="789" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="OcVvFfoguZnq5OLfiX84-34" value="物理内存" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-40" y="530" width="60" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
