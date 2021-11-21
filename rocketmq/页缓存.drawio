@@ -1,1 +1,85 @@
-<mxfile host="app.diagrams.net" modified="2021-11-21T07:22:22.643Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" version="15.8.3" etag="sVg_Q2xlra9ZtUjpZH5B" type="github"><diagram id="73d_WHOA1C-F4_vmPgwB">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-11-21T07:34:24.613Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="SegljoOP8iGbF6-b6kHv" version="15.8.3" type="github">
+  <diagram id="73d_WHOA1C-F4_vmPgwB" name="Page-1">
+    <mxGraphModel dx="1426" dy="771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="t_03snCosuq0tiuten4P-44" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="144" y="450" width="516" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="t_03snCosuq0tiuten4P-6" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="148" y="340" width="512" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="t_03snCosuq0tiuten4P-1" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="270" as="sourcePoint" />
+            <mxPoint x="676" y="270" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="376" y="270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t_03snCosuq0tiuten4P-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;startArrow=classic;startFill=1;endArrow=none;endFill=0;" edge="1" parent="1" source="t_03snCosuq0tiuten4P-2" target="t_03snCosuq0tiuten4P-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t_03snCosuq0tiuten4P-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="t_03snCosuq0tiuten4P-2" target="t_03snCosuq0tiuten4P-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t_03snCosuq0tiuten4P-2" value="read/wirite" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="347" y="160" width="106" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="t_03snCosuq0tiuten4P-3" value="用户态" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="580" y="230" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="t_03snCosuq0tiuten4P-4" value="内核态" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="580" y="290" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="t_03snCosuq0tiuten4P-9" value="内存" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="370" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="t_03snCosuq0tiuten4P-10" value="磁盘" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="495" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="t_03snCosuq0tiuten4P-11" value="" style="shape=table;html=1;whiteSpace=wrap;startSize=0;container=1;collapsible=0;childLayout=tableLayout;" vertex="1" parent="1">
+          <mxGeometry x="240" y="466" width="322" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="t_03snCosuq0tiuten4P-12" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="t_03snCosuq0tiuten4P-11">
+          <mxGeometry width="322" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="t_03snCosuq0tiuten4P-13" value="4kb" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=#fff2cc;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;strokeColor=#d6b656;" vertex="1" parent="t_03snCosuq0tiuten4P-12">
+          <mxGeometry width="106" height="36" as="geometry">
+            <mxRectangle width="106" height="36" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t_03snCosuq0tiuten4P-14" value="4kb" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=#fff2cc;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;strokeColor=#d6b656;" vertex="1" parent="t_03snCosuq0tiuten4P-12">
+          <mxGeometry x="106" width="108" height="36" as="geometry">
+            <mxRectangle width="108" height="36" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t_03snCosuq0tiuten4P-41" value="4kb" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=#fff2cc;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;strokeColor=#d6b656;" vertex="1" parent="t_03snCosuq0tiuten4P-12">
+          <mxGeometry x="214" width="108" height="36" as="geometry">
+            <mxRectangle width="108" height="36" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t_03snCosuq0tiuten4P-25" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="393.98" y="355.33" width="14.67" height="325.33" as="geometry" />
+        </mxCell>
+        <mxCell id="t_03snCosuq0tiuten4P-26" value="文件A" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="532" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="t_03snCosuq0tiuten4P-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.413;entryY=-0.028;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="t_03snCosuq0tiuten4P-33" target="t_03snCosuq0tiuten4P-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t_03snCosuq0tiuten4P-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.578;entryY=-0.028;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;endArrow=none;endFill=0;" edge="1" parent="1" source="t_03snCosuq0tiuten4P-33" target="t_03snCosuq0tiuten4P-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t_03snCosuq0tiuten4P-33" value="page cache" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="347" y="360" width="106" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="t_03snCosuq0tiuten4P-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;startArrow=classic;startFill=1;endArrow=none;endFill=0;" edge="1" parent="1" source="t_03snCosuq0tiuten4P-10" target="t_03snCosuq0tiuten4P-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
