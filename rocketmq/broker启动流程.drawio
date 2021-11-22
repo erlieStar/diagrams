@@ -1,88 +1,58 @@
-<mxfile host="app.diagrams.net" modified="2021-11-20T11:07:48.392Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="XtJGSHIkwGcrilidmO35" version="15.8.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-22T11:45:28.406Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="espxDsbX2F4idlHlTAAH" version="15.8.3" type="github">
   <diagram id="sFC1RRCr9SFQazNoy_1z" name="Page-1">
     <mxGraphModel dx="946" dy="536" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="3U_JYmoVX_Mq-FX1dJBy-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zNyeDEZQtX2fkmq9p0QW-1" target="zNyeDEZQtX2fkmq9p0QW-3">
+        <mxCell id="3U_JYmoVX_Mq-FX1dJBy-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="zNyeDEZQtX2fkmq9p0QW-1" target="zNyeDEZQtX2fkmq9p0QW-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="3U_JYmoVX_Mq-FX1dJBy-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zNyeDEZQtX2fkmq9p0QW-1" target="zNyeDEZQtX2fkmq9p0QW-2">
+        <mxCell id="3U_JYmoVX_Mq-FX1dJBy-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="zNyeDEZQtX2fkmq9p0QW-1" target="zNyeDEZQtX2fkmq9p0QW-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="zNyeDEZQtX2fkmq9p0QW-1" value="&lt;span&gt;BrokerStartup#main&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="110" y="160" width="150" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="3U_JYmoVX_Mq-FX1dJBy-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zNyeDEZQtX2fkmq9p0QW-2" target="3U_JYmoVX_Mq-FX1dJBy-11">
+        <mxCell id="3U_JYmoVX_Mq-FX1dJBy-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="zNyeDEZQtX2fkmq9p0QW-2" target="3U_JYmoVX_Mq-FX1dJBy-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="3U_JYmoVX_Mq-FX1dJBy-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zNyeDEZQtX2fkmq9p0QW-2" target="3U_JYmoVX_Mq-FX1dJBy-1">
+        <mxCell id="3U_JYmoVX_Mq-FX1dJBy-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="zNyeDEZQtX2fkmq9p0QW-2" target="3U_JYmoVX_Mq-FX1dJBy-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="zNyeDEZQtX2fkmq9p0QW-2" value="BrokerStartup#createBrokerController" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="300" y="110" width="250" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="3U_JYmoVX_Mq-FX1dJBy-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="zNyeDEZQtX2fkmq9p0QW-3" target="3U_JYmoVX_Mq-FX1dJBy-2">
+        <mxCell id="3U_JYmoVX_Mq-FX1dJBy-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="zNyeDEZQtX2fkmq9p0QW-3" target="3U_JYmoVX_Mq-FX1dJBy-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="3U_JYmoVX_Mq-FX1dJBy-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zNyeDEZQtX2fkmq9p0QW-3" target="3U_JYmoVX_Mq-FX1dJBy-3">
+        <mxCell id="3U_JYmoVX_Mq-FX1dJBy-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="zNyeDEZQtX2fkmq9p0QW-3" target="3U_JYmoVX_Mq-FX1dJBy-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="3U_JYmoVX_Mq-FX1dJBy-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zNyeDEZQtX2fkmq9p0QW-3" target="3U_JYmoVX_Mq-FX1dJBy-4">
+        <mxCell id="3U_JYmoVX_Mq-FX1dJBy-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="zNyeDEZQtX2fkmq9p0QW-3" target="3U_JYmoVX_Mq-FX1dJBy-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="3U_JYmoVX_Mq-FX1dJBy-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zNyeDEZQtX2fkmq9p0QW-3" target="3U_JYmoVX_Mq-FX1dJBy-5">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="3U_JYmoVX_Mq-FX1dJBy-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zNyeDEZQtX2fkmq9p0QW-3" target="3U_JYmoVX_Mq-FX1dJBy-6">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="3U_JYmoVX_Mq-FX1dJBy-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zNyeDEZQtX2fkmq9p0QW-3" target="3U_JYmoVX_Mq-FX1dJBy-7">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="3U_JYmoVX_Mq-FX1dJBy-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zNyeDEZQtX2fkmq9p0QW-3" target="3U_JYmoVX_Mq-FX1dJBy-8">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="3U_JYmoVX_Mq-FX1dJBy-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zNyeDEZQtX2fkmq9p0QW-3" target="3U_JYmoVX_Mq-FX1dJBy-9">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="3U_JYmoVX_Mq-FX1dJBy-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zNyeDEZQtX2fkmq9p0QW-3" target="3U_JYmoVX_Mq-FX1dJBy-10">
+        <mxCell id="3U_JYmoVX_Mq-FX1dJBy-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="zNyeDEZQtX2fkmq9p0QW-3" target="3U_JYmoVX_Mq-FX1dJBy-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="zNyeDEZQtX2fkmq9p0QW-3" value="BrokerController#start" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="300" y="200" width="250" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="3U_JYmoVX_Mq-FX1dJBy-1" value="初始化各种功能组件&lt;br&gt;开启各种定时任务" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="3U_JYmoVX_Mq-FX1dJBy-1" value="初始化各种功能组件&lt;br&gt;开启各种定时任务" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="590" y="110" width="250" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="3U_JYmoVX_Mq-FX1dJBy-2" value="启动messageStore&lt;br&gt;存储消息" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="3U_JYmoVX_Mq-FX1dJBy-2" value="启动messageStore&lt;br&gt;存储消息" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="590" y="200" width="250" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="3U_JYmoVX_Mq-FX1dJBy-3" value="启动remotingServer和&lt;span&gt;fastRemotingServer&lt;br&gt;&lt;/span&gt;用来处理客户端的请求" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="3U_JYmoVX_Mq-FX1dJBy-3" value="启动remotingServer和&lt;span&gt;fastRemotingServer&lt;br&gt;&lt;/span&gt;用来处理客户端的请求" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="590" y="280" width="250" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="3U_JYmoVX_Mq-FX1dJBy-4" value="启动fileWatchService&lt;br&gt;&lt;span style=&quot;text-align: left&quot;&gt;用于SSL/TLS&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="590" y="360" width="250" height="60" as="geometry" />
+        <mxCell id="3U_JYmoVX_Mq-FX1dJBy-5" value="启动brokerOuterAPI&lt;br&gt;处理和发送网络请求" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="590" y="380" width="250" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="3U_JYmoVX_Mq-FX1dJBy-5" value="启动brokerOuterAPI&lt;br&gt;处理和发送网络请求" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="590" y="450" width="250" height="60" as="geometry" />
+        <mxCell id="3U_JYmoVX_Mq-FX1dJBy-6" value="启动pullRequestHoldService&lt;br&gt;用来支持长轮询" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="590" y="480" width="250" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="3U_JYmoVX_Mq-FX1dJBy-6" value="启动pullRequestHoldService&lt;br&gt;用来支持长轮询" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="590" y="540" width="250" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="3U_JYmoVX_Mq-FX1dJBy-7" value="启动clientHousekeepingService&lt;br&gt;定时清除不活跃的连接" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="590" y="630" width="250" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="3U_JYmoVX_Mq-FX1dJBy-8" value="启动filterServerManager&lt;br&gt;用来支持类过滤模式" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="590" y="720" width="250" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="3U_JYmoVX_Mq-FX1dJBy-9" value="启动brokerStatsManager&lt;br&gt;broker状态管理器" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="590" y="810" width="250" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="3U_JYmoVX_Mq-FX1dJBy-10" value="启动brokerFastFailure&lt;br&gt;支持broker快速失败" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="590" y="900" width="250" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="3U_JYmoVX_Mq-FX1dJBy-11" value="通过配置类构建BrokerController" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+        <mxCell id="3U_JYmoVX_Mq-FX1dJBy-11" value="通过配置类构建BrokerController" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="590" y="10" width="250" height="60" as="geometry" />
         </mxCell>
       </root>
