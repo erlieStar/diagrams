@@ -1,0 +1,46 @@
+@startuml
+AbstractApplicationContext -> AbstractApplicationContext: finishBeanFactoryInitialization
+activate AbstractApplicationContext
+AbstractApplicationContext -> DefaultListableBeanFactory: preInstantiateSingletons\n 初始化非延迟单例Bean
+activate DefaultListableBeanFactory
+DefaultListableBeanFactory -> AbstractBeanFactory: getBean
+activate AbstractBeanFactory
+AbstractBeanFactory -> AbstractBeanFactory: doGetBean
+activate AbstractBeanFactory
+AbstractBeanFactory -> DefaultSingletonBeanRegistry: getSingleton(String beanName)\n 从一二三级缓存中获取Bean，获取到直接返回
+activate DefaultSingletonBeanRegistry
+DefaultSingletonBeanRegistry -> AbstractBeanFactory: 获取结果
+deactivate
+AbstractBeanFactory -> DefaultSingletonBeanRegistry: getSingleton(String beanName, ObjectFactory<?> singletonFactory）\n没有获取到则创建
+activate DefaultSingletonBeanRegistry
+DefaultSingletonBeanRegistry -> AbstractAutowireCapableBeanFactory: createBean
+activate AbstractAutowireCapableBeanFactory
+AbstractAutowireCapableBeanFactory -> AbstractAutowireCapableBeanFactory: resolveBeforeInstantiation\n 实例化前阶段
+activate AbstractAutowireCapableBeanFactory
+deactivate
+AbstractAutowireCapableBeanFactory -> AbstractAutowireCapableBeanFactory: doCreateBean
+activate AbstractAutowireCapableBeanFactory
+AbstractAutowireCapableBeanFactory -> AbstractAutowireCapableBeanFactory: createBeanInstance\n 实例化阶段
+activate AbstractAutowireCapableBeanFactory
+deactivate
+AbstractAutowireCapableBeanFactory -> AbstractAutowireCapableBeanFactory: applyMergedBeanDefinitionPostProcessors\n 实例化后阶段
+activate AbstractAutowireCapableBeanFactory
+deactivate
+AbstractAutowireCapableBeanFactory -> AbstractAutowireCapableBeanFactory: addSingletonFactory\n 放到三级缓存
+activate AbstractAutowireCapableBeanFactory
+deactivate
+AbstractAutowireCapableBeanFactory -> AbstractAutowireCapableBeanFactory: populateBean \n 属性赋值
+activate AbstractAutowireCapableBeanFactory
+deactivate
+AbstractAutowireCapableBeanFactory -> AbstractAutowireCapableBeanFactory: initializeBean \n 初始化
+activate AbstractAutowireCapableBeanFactory
+deactivate
+AbstractAutowireCapableBeanFactory -> DefaultSingletonBeanRegistry: 创建完成
+deactivate
+DefaultSingletonBeanRegistry -> DefaultSingletonBeanRegistry: addSingleton\n放到1级缓存，从2，3级缓存删除
+activate DefaultSingletonBeanRegistry
+deactivate
+DefaultSingletonBeanRegistry -> AbstractBeanFactory: 返回
+AbstractBeanFactory ->  DefaultListableBeanFactory: 返回
+DefaultListableBeanFactory -> AbstractApplicationContext: 返回
+@enduml
